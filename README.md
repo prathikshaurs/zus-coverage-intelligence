@@ -46,23 +46,6 @@ The engine and tests confirm all three are found.
 
 ---
 
-## Architecture
-
-```
-engine/generate_data.py   synthetic FHIR-style data (Faker + numpy)
-engine/coverage_engine.py  metrics, anomaly detection, narratives  <- the core
-sql/coverage_queries.sql   the same logic as Snowflake-style SQL
-notebooks/investigation.py one investigation walked end to end
-tests/test_engine.py       10 tests incl. ground-truth detection checks
-dashboard/index.html       single-file interactive console (the live demo)
-docs/WRITEUP.md            the one-page summary to send with it
-```
-
-The Python engine and the SQL layer are cross-validated against the same dataset
-(via DuckDB) and produce identical numbers.
-
----
-
 ## Run it locally
 
 ```bash
@@ -92,5 +75,5 @@ data, and no PHI are used anywhere. The numbers exist to demonstrate the method,
 the metrics, the detection, the narrative hand-off, and not to describe any real
 network's performance. Not affiliated with or endorsed by Zus Health.
 
-Built by **Prathiksha Mohan Raje Urs**, Data Engineer, HL7 certified, with
+Built by **Prathiksha Mohan Raje Urs**, a Data Engineer, HL7 certified, with
 production HL7/FHIR interoperability experience.
