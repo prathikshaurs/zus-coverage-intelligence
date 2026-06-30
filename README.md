@@ -1,18 +1,14 @@
 # Coverage Intelligence Console
 
 A working prototype of the metrics, anomaly detection, and tooling an
-**Interoperability Operations Analyst** builds: it measures clinical-data coverage
+**Interoperability Operations Analyst** builds. It measures clinical-data coverage
 across a health-data network, finds where coverage is thin, explains *why*, and
 turns each finding into a routable action.
 
-**[▶ Live demo](https://USERNAME.github.io/zus-coverage-intelligence/)** &nbsp;·&nbsp; built around the Zus Health FHIR data-mart model
+**[▶ Live demo](https://prathikshaurs.github.io/zus-coverage-intelligence/)** &nbsp;·&nbsp; built around the Zus Health FHIR data-mart model
 
-> "Pulling this data is a commodity. What comes next is where the real value lies.
-> Volume isn't the problem. Meaning is." — Zus Health, *Pipe Dreams* blog
-
-This project takes that thesis literally. It assumes the pipes already work and
-focuses entirely on the operations layer on top: *which* data is missing, *where*,
-*for whom*, and *what to do about it*.
+A lot of vendors can pull data from the national networks now, that part is becoming a commodity. The real differentiation is in what happens after the pull: normalizing it, catching what's missing, and explaining the gaps to the people who need the answer.
+This project takes that idea literally. It assumes the pipes already work and focuses entirely on the operations layer on top: which data is missing, where, for whom, and what to do about it.
 
 ---
 
@@ -23,7 +19,7 @@ focuses entirely on the operations layer on top: *which* data is missing, *where
 | **Coverage intelligence** | Coverage rate computed across network, data type, customer, geography, and age band; a state × network heatmap for fast visual triage |
 | **Anomaly investigation** | A z-score engine that compares every cell to its network's own norm and flags significant shortfalls; a second non-geographic scan for thin payloads and latency outliers |
 | **Root-cause narratives** | Every anomaly is paired with a plain-language hypothesis and a recommended operational action (the hand-off to support / solutions / product) |
-| **Operations partnership** | Findings are categorized (connectivity / configuration / participation gap) so each routes to the right owner — the start of a playbook |
+| **Operations partnership** | Findings are categorized (connectivity / configuration / participation gap) so each routes to the right owner - the start of a playbook |
 | **ADT noise-to-signal** | A funnel that dedupes push alerts and filters for clinical context, down to the actionable admits/discharges |
 
 ---
@@ -70,14 +66,21 @@ The Python engine and the SQL layer are cross-validated against the same dataset
 ## Run it locally
 
 ```bash
+# 1. To install dependencies
 pip install pandas numpy faker pytest duckdb
-python engine/generate_data.py --patients 4000     # build the dataset
-python engine/coverage_engine.py                   # run the engine -> report JSON
-python notebooks/investigation.py                  # read the worked investigation
-python -m pytest tests/ -v                          # 10/10 passing
 
-# view the dashboard
-cd dashboard && python -m http.server 8000          # open http://localhost:8000
+# 2. To generate the full dataset
+python engine/generate_data.py --patients 4000 --seed 42 --out data
+
+# 3. Run the engine (produces the report JSON)
+python engine/coverage_engine.py
+
+# 4. Run the tests
+python -m pytest tests/ -v
+
+# 5. Serve the dashboard locally (open http://localhost:8000)
+cd dashboard
+python -m http.server 8000
 ```
 
 ---
@@ -85,9 +88,9 @@ cd dashboard && python -m http.server 8000          # open http://localhost:8000
 ## A note on data and scope
 
 Everything here is **fully synthetic**. No real patient data, no proprietary Zus
-data, and no PHI are used anywhere. The numbers exist to demonstrate the *method* —
-the metrics, the detection, the narrative hand-off — not to describe any real
+data, and no PHI are used anywhere. The numbers exist to demonstrate the method,
+the metrics, the detection, the narrative hand-off, and not to describe any real
 network's performance. Not affiliated with or endorsed by Zus Health.
 
-Built by **Prathiksha Mohan Raje Urs** — Data Engineer, HL7 certified, with
+Built by **Prathiksha Mohan Raje Urs**, Data Engineer, HL7 certified, with
 production HL7/FHIR interoperability experience.
