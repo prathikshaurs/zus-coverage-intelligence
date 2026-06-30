@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coverage Intelligence Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e1a24;
+    --ink-soft:#3a4a57;
+    --mist:#6b7d8a;
+    --line:#dde6ea;
+    --line-soft:#eef3f5;
+    --paper:#f6f8f9;
+    --card:#ffffff;
+    --teal:#0d7a82;
+    --teal-deep:#0a5b61;
+    --signal:#16a34a;
+    --warn:#c2761a;
+    --alert:#c0392b;
+    --alert-soft:#fbeae7;
+    --warn-soft:#fbf2e3;
+    --good-soft:#e7f4ec;
+    --radius:10px;
+    --shadow:0 1px 2px rgba(14,26,36,.04), 0 6px 24px rgba(14,26,36,.05);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+  }
+  .wrap{max-width:1180px; margin:0 auto; padding:0 24px}
+
+  /* ---- masthead ---- */
+  header.masthead{
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,#fff, #fbfdfd);
+  }
+  .masthead-inner{display:flex; align-items:flex-end; justify-content:space-between; padding:26px 0 22px; gap:24px; flex-wrap:wrap}
+  .brandmark{display:flex; align-items:center; gap:12px}
+  .glyph{
+    width:38px; height:38px; border-radius:9px;
+    background:radial-gradient(circle at 30% 30%, var(--teal), var(--teal-deep));
+    position:relative; flex:none;
+  }
+  .glyph::after{
+    content:""; position:absolute; inset:0;
+    background:
+      radial-gradient(circle at 70% 72%, rgba(255,255,255,.85) 0 2.2px, transparent 2.6px),
+      radial-gradient(circle at 32% 40%, rgba(255,255,255,.55) 0 1.6px, transparent 2px),
+      radial-gradient(circle at 58% 30%, rgba(255,255,255,.4) 0 1.4px, transparent 1.8px);
+  }
+  .title-block h1{
+    font-family:"Fraunces",serif; font-weight:500; font-size:23px; letter-spacing:-.01em;
+    margin:0; line-height:1.1;
+  }
+  .title-block .sub{font-size:12.5px; color:var(--mist); margin-top:3px; font-weight:500}
+  .context{
+    text-align:right; font-size:12px; color:var(--mist); font-family:"IBM Plex Mono",monospace;
+  }
+  .context strong{color:var(--ink-soft); font-weight:600}
+  .pill-note{
+    display:inline-block; margin-top:6px; font-family:"IBM Plex Sans";
+    font-size:11px; background:var(--good-soft); color:var(--teal-deep);
+    padding:2px 9px; border-radius:20px; font-weight:600; letter-spacing:.01em;
+  }
+
+  /* ---- thesis row ---- */
+  .thesis{padding:30px 0 6px}
+  .thesis-quote{
+    font-family:"Fraunces",serif; font-weight:400; font-size:25px; line-height:1.3;
+    letter-spacing:-.01em; max-width:760px; color:var(--ink);
+  }
+  .thesis-quote em{font-style:italic; color:var(--teal-deep)}
+  .thesis-cite{font-size:12px; color:var(--mist); margin-top:10px; font-weight:500}
+
+  /* ---- KPI strip ---- */
+  .kpis{display:grid; grid-template-columns:repeat(5,1fr); gap:14px; padding:22px 0 6px}
+  .kpi{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:15px 16px; box-shadow:var(--shadow);
+  }
+  .kpi .label{font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--mist); font-weight:600}
+  .kpi .val{font-family:"IBM Plex Mono",monospace; font-size:27px; font-weight:600; margin-top:8px; line-height:1; letter-spacing:-.02em}
+  .kpi .val .unit{font-size:14px; color:var(--mist); font-weight:500; margin-left:1px}
+  .kpi .foot{font-size:11px; color:var(--mist); margin-top:7px}
+  .val.good{color:var(--teal-deep)} .val.warn{color:var(--warn)} .val.alert{color:var(--alert)}
+
+  /* ---- section scaffolding ---- */
+  section{padding:30px 0}
+  .sec-head{display:flex; align-items:baseline; gap:14px; margin-bottom:4px}
+  .sec-eyebrow{
+    font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--teal);
+    font-weight:600; letter-spacing:.04em;
+  }
+  .sec-head h2{font-family:"Fraunces",serif; font-weight:500; font-size:21px; margin:0; letter-spacing:-.01em}
+  .sec-desc{font-size:13px; color:var(--mist); margin:6px 0 20px; max-width:720px}
+
+  /* ---- controls ---- */
+  .controls{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px}
+  .seg{display:inline-flex; background:var(--line-soft); border-radius:8px; padding:3px}
+  .seg button{
+    border:0; background:transparent; font-family:inherit; font-size:12.5px; font-weight:600;
+    color:var(--mist); padding:6px 13px; border-radius:6px; cursor:pointer; transition:.15s;
+  }
+  .seg button.active{background:#fff; color:var(--ink); box-shadow:0 1px 2px rgba(0,0,0,.08)}
+  .seg button:hover:not(.active){color:var(--ink-soft)}
+
+  /* ---- bar list ---- */
+  .barlist{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:8px 4px; box-shadow:var(--shadow)}
+  .bar-row{display:grid; grid-template-columns:160px 1fr 132px; align-items:center; gap:14px; padding:9px 16px; border-bottom:1px solid var(--line-soft)}
+  .bar-row:last-child{border-bottom:0}
+  .bar-name{font-size:13px; font-weight:600; color:var(--ink-soft)}
+  .bar-name .meta{display:block; font-size:10.5px; color:var(--mist); font-weight:500; font-family:"IBM Plex Mono"}
+  .track{height:9px; background:var(--line-soft); border-radius:6px; overflow:hidden}
+  .fill{height:100%; border-radius:6px; transition:width .6s cubic-bezier(.2,.7,.2,1)}
+  .bar-val{font-family:"IBM Plex Mono",monospace; font-size:13px; text-align:right; color:var(--ink)}
+  .bar-val small{color:var(--mist); font-size:11px}
+
+  /* ---- heatmap ---- */
+  .matrix-scroll{overflow-x:auto; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
+  table.heat{border-collapse:collapse; width:100%; font-size:12px}
+  table.heat th, table.heat td{padding:0; text-align:center}
+  table.heat thead th{
+    font-family:"IBM Plex Mono"; font-size:11px; font-weight:600; color:var(--mist);
+    padding:11px 10px; border-bottom:1px solid var(--line); white-space:nowrap;
+  }
+  table.heat tbody th{
+    text-align:left; padding:0 14px; font-weight:600; color:var(--ink-soft); font-size:12.5px;
+    border-right:1px solid var(--line); position:sticky; left:0; background:var(--card);
+  }
+  .cell{display:block; padding:11px 8px; font-family:"IBM Plex Mono"; font-weight:500; color:#26343d; position:relative}
+  .cell:hover{outline:2px solid var(--teal); outline-offset:-2px; z-index:2; cursor:default}
+
+  /* ---- investigation cards ---- */
+  .invest-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  .case{background:var(--card); border:1px solid var(--line); border-left:3px solid var(--alert); border-radius:var(--radius); padding:18px 19px; box-shadow:var(--shadow)}
+  .case.config{border-left-color:var(--warn)}
+  .case.connectivity{border-left-color:var(--alert)}
+  .case.participation_gap{border-left-color:var(--teal)}
+  .case.thin_payload{border-left-color:var(--warn)}
+  .case.latency_outlier{border-left-color:var(--mist)}
+  .case-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:11px}
+  .case-scope{font-family:"IBM Plex Mono"; font-weight:600; font-size:14px; color:var(--ink)}
+  .case-tag{font-size:10px; text-transform:uppercase; letter-spacing:.06em; font-weight:700; padding:3px 9px; border-radius:20px; white-space:nowrap}
+  .tag-alert{background:var(--alert-soft); color:var(--alert)}
+  .tag-warn{background:var(--warn-soft); color:var(--warn)}
+  .tag-gap{background:var(--good-soft); color:var(--teal-deep)}
+  .case-stats{display:flex; gap:18px; margin-bottom:12px; padding-bottom:12px; border-bottom:1px solid var(--line-soft)}
+  .cstat .n{font-family:"IBM Plex Mono"; font-size:18px; font-weight:600; color:var(--ink)}
+  .cstat .n.down{color:var(--alert)}
+  .cstat .k{font-size:10.5px; color:var(--mist); text-transform:uppercase; letter-spacing:.05em; margin-top:2px}
+  .case h4{font-size:10.5px; text-transform:uppercase; letter-spacing:.07em; color:var(--mist); margin:11px 0 4px; font-weight:700}
+  .case p{margin:0; font-size:13px; color:var(--ink-soft); line-height:1.55}
+  .case .action{color:var(--ink); font-weight:500}
+
+  /* ---- ADT funnel ---- */
+  .funnel{display:grid; grid-template-columns:1.2fr 1fr; gap:20px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:22px 24px; box-shadow:var(--shadow)}
+  .funnel-steps{display:flex; flex-direction:column; gap:10px}
+  .fstep{display:flex; align-items:center; gap:14px}
+  .fbar{height:38px; border-radius:7px; display:flex; align-items:center; padding:0 14px; color:#fff; font-family:"IBM Plex Mono"; font-weight:600; font-size:14px; transition:width .7s ease}
+  .fstep .flabel{font-size:12.5px; color:var(--ink-soft); font-weight:500}
+  .funnel-headline{text-align:center}
+  .funnel-headline .big{font-family:"Fraunces"; font-size:46px; font-weight:500; color:var(--teal-deep); line-height:1}
+  .funnel-headline .cap{font-size:13px; color:var(--mist); margin-top:8px; max-width:230px; margin-left:auto; margin-right:auto}
+
+  footer{border-top:1px solid var(--line); margin-top:20px; padding:26px 0 50px}
+  .foot-inner{display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:12px; color:var(--mist)}
+  .foot-inner code{font-family:"IBM Plex Mono"; background:var(--line-soft); padding:2px 6px; border-radius:5px; color:var(--ink-soft)}
+  .disclaimer{font-size:11.5px; color:var(--mist); margin-top:14px; line-height:1.5; max-width:760px}
+
+  @media (max-width:900px){
+    .kpis{grid-template-columns:repeat(2,1fr)}
+    .invest-grid{grid-template-columns:1fr}
+    .funnel{grid-template-columns:1fr}
+    .bar-row{grid-template-columns:120px 1fr 96px; gap:10px}
+    .thesis-quote{font-size:21px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="brandmark">
+      <div class="glyph" aria-hidden="true"></div>
+      <div class="title-block">
+        <h1>Coverage Intelligence Console</h1>
+        <div class="sub">Network coverage, data quality &amp; ADT signal across the patient data network</div>
+      </div>
+    </div>
+    <div class="context">
+      <div>cohort &middot; <strong id="ctx-humans">—</strong> humans &middot; <strong id="ctx-pulls">—</strong> retrievals</div>
+      <div style="margin-top:3px">refreshed <strong id="ctx-date">—</strong></div>
+      <span class="pill-note">prototype &middot; synthetic data</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="thesis">
+    <div class="thesis-quote">Pulling records is a commodity. The work is knowing <em>where coverage is thin, why,</em> and what to do about it &mdash; per network, per geography, per customer.</div>
+    <div class="thesis-cite">Built to the shape of the Interoperability Operations Analyst role &middot; modeled on Zus's FHIR data-mart structure (UPID identity, DATA_SOURCE provenance, network-level coverage)</div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <div class="sec-head"><span class="sec-eyebrow">01 / COVERAGE</span><h2>Where the network is strong &mdash; and where it isn't</h2></div>
+    <p class="sec-desc">Coverage rate is the share of expected (patient &times; network &times; data-type) records Zus successfully retrieved. Sorted worst-first, the way you'd triage it.</p>
+    <div class="controls">
+      <div class="seg" id="dim-seg">
+        <button data-dim="by_network" class="active">By network</button>
+        <button data-dim="by_data_type">By data type</button>
+        <button data-dim="by_customer">By customer</button>
+        <button data-dim="by_state">By geography</button>
+        <button data-dim="by_age_band">By age band</button>
+      </div>
+    </div>
+    <div class="barlist" id="barlist"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-eyebrow">02 / GEOGRAPHY &times; NETWORK</span><h2>Coverage heatmap</h2></div>
+    <p class="sec-desc">Each cell is the coverage rate for a state on a given network. The dark patches are where to look first &mdash; a single weak cell against a strong row usually means a connectivity or participation problem, not a sick patient population.</p>
+    <div class="matrix-scroll"><table class="heat" id="heat"></table></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-eyebrow">03 / INVESTIGATION</span><h2>Flagged anomalies &amp; root-cause hypotheses</h2></div>
+    <p class="sec-desc">The engine compares every cell to its network's own norm and flags statistically significant shortfalls (z &le; -2). Each card pairs the finding with a plain-language hypothesis and a recommended operational action &mdash; the hand-off from analysis to support, solutions, or product.</p>
+    <div class="invest-grid" id="cases"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-eyebrow">04 / DATA QUALITY</span><h2>Retrieved, but not usable</h2></div>
+    <p class="sec-desc">Coverage can look fine while quality quietly fails. These are network/data-type combinations that return records which arrive near-empty or far too slowly &mdash; caught by a separate, non-geographic scan.</p>
+    <div class="invest-grid" id="quality"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-eyebrow">05 / ADT SIGNAL</span><h2>From push-alert noise to actionable events</h2></div>
+    <p class="sec-desc">Raw ADT notifications are noisy: duplicates within hours, alerts with no clinical context attached. This is the funnel from every alert received down to the admits and discharges a care team can actually act on.</p>
+    <div class="funnel" id="funnel"></div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <div>Coverage Intelligence Console &middot; a portfolio prototype</div>
+      <div>stack: <code>Python</code> <code>pandas</code> <code>SQL / DuckDB</code> <code>pytest</code> <code>vanilla JS</code></div>
+    </div>
+    <p class="disclaimer">All figures are computed from fully synthetic data generated to resemble the Zus FHIR data-mart structure (UPID identity resolution, DATA_SOURCE provenance, network-level retrieval facts). No real patient data, no proprietary Zus data, and no PHI are used anywhere in this project. Coverage gaps and anomalies are deliberately injected into the synthetic dataset so the detection logic can be validated against a known ground truth. Not affiliated with or endorsed by Zus Health.</p>
+  </div>
+</footer>
+
+<script src="report_data.js"></script>
+<script>
+const R = window.COVERAGE_REPORT;
+
+// ---- helpers ----
+const fmt = n => Number(n).toLocaleString();
+function heatColor(v){
+  // 0 (alert) -> ~95 (deep teal). Perceptual-ish ramp on a calm palette.
+  if(v==null||isNaN(v)) return '#f0f3f4';
+  const t = Math.max(0, Math.min(1, (v-25)/65));
+  // interpolate alert-red -> amber -> teal
+  const stops = [[192,57,43],[194,118,26],[120,150,90],[13,122,130],[10,91,97]];
+  const seg = t*(stops.length-1); const i = Math.floor(seg); const f = seg-i;
+  const a = stops[i], b = stops[Math.min(i+1,stops.length-1)];
+  const c = a.map((x,k)=>Math.round(x+(b[k]-x)*f));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+function fillColor(v){
+  if(v>=80) return 'var(--signal)';
+  if(v>=65) return 'var(--teal)';
+  if(v>=50) return 'var(--warn)';
+  return 'var(--alert)';
+}
+
+// ---- context ----
+document.getElementById('ctx-humans').textContent = fmt(R.overall.humans);
+document.getElementById('ctx-pulls').textContent = fmt(R.overall.total_pulls);
+document.getElementById('ctx-date').textContent =
+  (R.meta.generated_at||'').slice(0,10) || 'today';
+
+// ---- KPIs ----
+const o = R.overall;
+const kpiDefs = [
+  {label:'Network coverage', val:o.coverage_rate, unit:'%',
+    cls:o.coverage_rate>=80?'good':o.coverage_rate>=65?'warn':'alert',
+    foot:'retrieved ÷ expected records'},
+  {label:'Median latency', val:o.median_latency_min, unit:'m', cls:'',
+    foot:'p90 '+o.p90_latency_min+'m to respond'},
+  {label:'Timeout rate', val:o.timeout_rate, unit:'%',
+    cls:o.timeout_rate>8?'alert':o.timeout_rate>4?'warn':'good',
+    foot:'pulls that never returned'},
+  {label:'Open anomalies', val:R.anomalies.length, unit:'',
+    cls:R.anomalies.length>4?'alert':'warn',
+    foot:'geographic shortfalls (z ≤ -2)'},
+  {label:'ADT noise removed', val:R.adt_signal.noise_reduction_pts, unit:'%',
+    cls:'good', foot:fmt(R.adt_signal.actionable_alerts)+' actionable of '+fmt(R.adt_signal.total_alerts)},
+];
+document.getElementById('kpis').innerHTML = kpiDefs.map(k=>`
+  <div class="kpi">
+    <div class="label">${k.label}</div>
+    <div class="val ${k.cls}">${k.val}<span class="unit">${k.unit}</span></div>
+    <div class="foot">${k.foot}</div>
+  </div>`).join('');
+
+// ---- bar list (switchable dimension) ----
+const dimKey = {by_network:'network', by_data_type:'data_type', by_customer:'customer',
+                by_state:'state', by_age_band:'age_band'};
+function renderBars(dim){
+  const key = dimKey[dim];
+  const rows = R[dim].slice().sort((a,b)=>a.coverage_rate-b.coverage_rate);
+  document.getElementById('barlist').innerHTML = rows.map(r=>{
+    const lat = r.median_latency_min!=null && !isNaN(r.median_latency_min)
+      ? Math.round(r.median_latency_min)+'m median' : '';
+    const meta = [lat, fmt(r.pulls)+' pulls'].filter(Boolean).join(' · ');
+    return `<div class="bar-row">
+      <div class="bar-name">${r[key]}<span class="meta">${meta}</span></div>
+      <div class="track"><div class="fill" style="width:${r.coverage_rate}%;background:${fillColor(r.coverage_rate)}"></div></div>
+      <div class="bar-val">${r.coverage_rate}%<br><small>${r.timeout_rate}% timeout</small></div>
+    </div>`;
+  }).join('');
+}
+document.querySelectorAll('#dim-seg button').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('#dim-seg button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active'); renderBars(b.dataset.dim);
+  });
+});
+renderBars('by_network');
+
+// ---- heatmap ----
+(function(){
+  const rows = R.state_network_matrix;
+  const nets = Object.keys(rows[0]).filter(k=>k!=='state');
+  let html = '<thead><tr><th>State</th>'+nets.map(n=>`<th>${n}</th>`).join('')+'</tr></thead><tbody>';
+  rows.sort((a,b)=>a.state.localeCompare(b.state));
+  for(const row of rows){
+    html += `<tr><th>${row.state}</th>`+
+      nets.map(n=>{
+        const v=row[n];
+        return `<td><span class="cell" style="background:${heatColor(v)};color:${v>=58?'#fff':'#2a3942'}" title="${row.state} · ${n}: ${v}%">${v!=null?v:'—'}</span></td>`;
+      }).join('')+`</tr>`;
+  }
+  html+='</tbody>';
+  document.getElementById('heat').innerHTML = html;
+})();
+
+// ---- investigation cards ----
+(function(){
+  const tagMap = {connectivity:['tag-alert','Connectivity'], configuration:['tag-warn','Configuration'],
+                  participation_gap:['tag-gap','Participation gap']};
+  document.getElementById('cases').innerHTML = R.anomalies.map(a=>{
+    const [tagCls,tagTxt] = tagMap[a.category]||['tag-warn',a.category];
+    return `<div class="case ${a.category}">
+      <div class="case-top">
+        <div class="case-scope">${a.scope}</div>
+        <span class="case-tag ${tagCls}">${tagTxt}</span>
+      </div>
+      <div class="case-stats">
+        <div class="cstat"><div class="n down">${a.coverage_rate}%</div><div class="k">actual</div></div>
+        <div class="cstat"><div class="n">${a.expected_rate}%</div><div class="k">expected</div></div>
+        <div class="cstat"><div class="n down">${a.delta_pts}</div><div class="k">delta pts</div></div>
+        <div class="cstat"><div class="n">${a.z_score}</div><div class="k">z-score</div></div>
+      </div>
+      <h4>Hypothesis</h4><p>${a.hypothesis}</p>
+      <h4>Recommended action</h4><p class="action">${a.recommended_action}</p>
+    </div>`;
+  }).join('');
+})();
+
+// ---- quality cards ----
+(function(){
+  const labelMap = {thin_payload:['tag-warn','Thin payload'], latency_outlier:['tag-warn','Latency outlier']};
+  document.getElementById('quality').innerHTML = R.quality_issues.map(q=>{
+    const [tagCls,tagTxt] = labelMap[q.type]||['tag-warn',q.type];
+    return `<div class="case ${q.type}">
+      <div class="case-top">
+        <div class="case-scope">${q.scope}</div>
+        <span class="case-tag ${tagCls}">${tagTxt}</span>
+      </div>
+      <div class="case-stats">
+        <div class="cstat"><div class="n">${q.metric}</div><div class="k">signal</div></div>
+        <div class="cstat"><div class="n">${fmt(q.pulls)}</div><div class="k">pulls observed</div></div>
+      </div>
+      <h4>Hypothesis</h4><p>${q.hypothesis}</p>
+      <h4>Recommended action</h4><p class="action">${q.recommended_action}</p>
+    </div>`;
+  }).join('');
+})();
+
+// ---- ADT funnel ----
+(function(){
+  const s = R.adt_signal;
+  const steps = [
+    {label:'All alerts received', v:s.total_alerts, color:'#6b7d8a'},
+    {label:'After removing duplicates', v:s.total_alerts - s.duplicate_alerts, color:'#0d7a82'},
+    {label:'Actionable (admit/discharge + context)', v:s.actionable_alerts, color:'#16a34a'},
+  ];
+  const max = steps[0].v;
+  document.getElementById('funnel').innerHTML = `
+    <div class="funnel-steps">
+      ${steps.map(st=>`
+        <div class="fstep">
+          <div class="fbar" style="width:${Math.max(18,100*st.v/max)}%;background:${st.color}">${fmt(st.v)}</div>
+          <div class="flabel">${st.label}</div>
+        </div>`).join('')}
+    </div>
+    <div class="funnel-headline">
+      <div class="big">${s.noise_reduction_pts}%</div>
+      <div class="cap">of raw push alerts filtered out before they reach a care team's worklist</div>
+    </div>`;
+})();
+</script>
+</body>
+</html>

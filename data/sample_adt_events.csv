@@ -1,0 +1,201 @@
+upid,customer,state,event_type,facility,source_network,event_ts,missing_clinical_context,has_followup_query,mins_since_prev,is_duplicate
+upid_0017e449,Author Health,FL,A04-Register,"Miller, Wilkins and Randolph Medical Center",Carequality,2026-06-16T08:30,True,False,,False
+upid_0017e449,Author Health,FL,A02-Transfer,"Reid, Phillips and Wolf Medical Center",Carequality,2026-06-22T06:30,True,False,8520.0,False
+upid_0017e449,Author Health,FL,A08-Update,Cooper Ltd Medical Center,Carequality,2026-06-25T21:10,True,False,5200.0,False
+upid_0017e449,Author Health,FL,A02-Transfer,"Lopez, Anderson and Stephenson Medical Center",CommonWell,2026-06-27T09:20,True,False,2170.0,False
+upid_0026d199,Evergreen Nephrology,NC,A04-Register,"Page, Martinez and Huynh Medical Center",CommonWell,2026-06-28T18:21,False,False,,False
+upid_0032eca6,HarmonyCares,PA,A01-Admit,"Berry, Martinez and Monroe Medical Center",CommonWell,2026-06-15T02:01,True,True,,False
+upid_0032eca6,HarmonyCares,PA,A01-Admit,Schaefer-Fernandez Medical Center,Carequality,2026-06-16T15:26,False,True,2245.0,False
+upid_0032eca6,HarmonyCares,PA,A08-Update,House Group Medical Center,QHIN-eHX,2026-06-21T04:27,True,True,6541.0,False
+upid_0032eca6,HarmonyCares,PA,A01-Admit,Stout LLC Medical Center,CommonWell,2026-06-22T03:22,False,False,1375.0,False
+upid_0032eca6,HarmonyCares,PA,A02-Transfer,Lee-Hansen Medical Center,QHIN-eHX,2026-06-24T08:33,True,False,3191.0,False
+upid_007a8f43,DispatchHealth,OR,A04-Register,Bowman-Lewis Medical Center,CommonWell,2026-06-16T12:52,False,True,,False
+upid_007a8f43,DispatchHealth,OR,A02-Transfer,Fleming-Ryan Medical Center,Carequality,2026-06-19T21:43,True,False,4851.0,False
+upid_007a8f43,DispatchHealth,OR,A02-Transfer,"Gonzales, Mays and Wheeler Medical Center",Carequality,2026-06-22T00:31,False,True,3048.0,False
+upid_0088211e,HarmonyCares,FL,A01-Admit,Barnes-Swanson Medical Center,QHIN-eHX,2026-06-15T17:56,False,True,,False
+upid_0088211e,HarmonyCares,FL,A01-Admit,Lane-Clark Medical Center,CommonWell,2026-06-16T19:36,False,False,1540.0,False
+upid_0088211e,HarmonyCares,FL,A03-Discharge,Willis PLC Medical Center,QHIN-eHX,2026-06-19T21:11,False,True,4415.0,False
+upid_0088211e,HarmonyCares,FL,A01-Admit,Norman-Taylor Medical Center,QHIN-eHX,2026-06-20T22:30,False,False,1519.0,False
+upid_0088211e,HarmonyCares,FL,A02-Transfer,Dougherty-Harris Medical Center,Carequality,2026-06-23T08:03,False,False,3453.0,False
+upid_0088211e,HarmonyCares,FL,A04-Register,Taylor PLC Medical Center,CommonWell,2026-06-25T05:28,False,True,2725.0,False
+upid_0088211e,HarmonyCares,FL,A08-Update,"Blackburn, Russell and Johnson Medical Center",Carequality,2026-06-26T03:49,True,False,1341.0,False
+upid_00a6f2d1,DispatchHealth,WA,A02-Transfer,Wood-Ross Medical Center,CommonWell,2026-06-17T14:54,False,True,,False
+upid_00a6f2d1,DispatchHealth,WA,A02-Transfer,"Mendoza, Torres and Weaver Medical Center",Carequality,2026-06-19T02:27,False,True,2133.0,False
+upid_00a6f2d1,DispatchHealth,WA,A08-Update,Parker Group Medical Center,QHIN-eHX,2026-06-25T23:38,True,True,9911.0,False
+upid_00a6f2d1,DispatchHealth,WA,A02-Transfer,Wang-Rojas Medical Center,QHIN-eHX,2026-06-25T23:44,True,True,6.0,True
+upid_00a6f2d1,DispatchHealth,WA,A04-Register,"Weiss, Salinas and Smith Medical Center",CommonWell,2026-06-26T08:57,True,True,553.0,False
+upid_00a6f2d1,DispatchHealth,WA,A03-Discharge,Sparks Ltd Medical Center,Carequality,2026-06-26T15:17,False,True,380.0,False
+upid_00a6f2d1,DispatchHealth,WA,A08-Update,Schneider-Koch Medical Center,Carequality,2026-06-27T21:43,False,False,1826.0,False
+upid_00a968a5,Evergreen Nephrology,VA,A04-Register,David Ltd Medical Center,CommonWell,2026-06-16T15:43,False,False,,False
+upid_00a968a5,Evergreen Nephrology,VA,A02-Transfer,"Goodman, Jones and Miller Medical Center",CommonWell,2026-06-17T09:26,False,False,1063.0,False
+upid_00a968a5,Evergreen Nephrology,VA,A03-Discharge,Andrews and Sons Medical Center,CommonWell,2026-06-17T15:12,False,False,346.0,True
+upid_00a968a5,Evergreen Nephrology,VA,A08-Update,"White, Cooper and Merritt Medical Center",QHIN-eHX,2026-06-19T13:55,True,True,2803.0,False
+upid_00a968a5,Evergreen Nephrology,VA,A04-Register,Reynolds Group Medical Center,QHIN-eHX,2026-06-26T18:53,False,False,10378.0,False
+upid_00a968a5,Evergreen Nephrology,VA,A02-Transfer,Long-Lewis Medical Center,CommonWell,2026-06-27T11:15,True,True,982.0,False
+upid_00b8313b,Author Health,GA,A04-Register,Cantrell Group Medical Center,QHIN-eHX,2026-06-18T08:18,True,True,,False
+upid_00b8313b,Author Health,GA,A03-Discharge,Hale Ltd Medical Center,QHIN-eHX,2026-06-24T04:34,False,False,8416.0,False
+upid_00b8313b,Author Health,GA,A02-Transfer,Craig and Sons Medical Center,CommonWell,2026-06-27T04:57,False,True,4343.0,False
+upid_00b8313b,Author Health,GA,A04-Register,Kelley PLC Medical Center,CommonWell,2026-06-27T07:09,False,False,132.0,True
+upid_00ccd744,Evergreen Nephrology,KY,A02-Transfer,Bowen-Fischer Medical Center,Carequality,2026-06-16T01:45,True,False,,False
+upid_00ccd744,Evergreen Nephrology,KY,A04-Register,"Williams, Stout and Doyle Medical Center",Carequality,2026-06-16T06:11,False,True,266.0,True
+upid_00ccd744,Evergreen Nephrology,KY,A01-Admit,"Garcia, Moore and Villa Medical Center",Carequality,2026-06-17T05:44,True,True,1413.0,False
+upid_00ccd744,Evergreen Nephrology,KY,A01-Admit,Rogers and Sons Medical Center,QHIN-eHX,2026-06-19T11:02,False,True,3198.0,False
+upid_00ccd744,Evergreen Nephrology,KY,A02-Transfer,Clark Ltd Medical Center,CommonWell,2026-06-22T08:19,True,True,4157.0,False
+upid_00ccd744,Evergreen Nephrology,KY,A02-Transfer,Turner PLC Medical Center,Carequality,2026-06-24T09:15,True,True,2936.0,False
+upid_00ccd744,Evergreen Nephrology,KY,A01-Admit,Clark Group Medical Center,Carequality,2026-06-27T12:53,False,False,4538.0,False
+upid_00ccd744,Evergreen Nephrology,KY,A08-Update,Ochoa and Sons Medical Center,QHIN-eHX,2026-06-27T13:49,False,True,56.0,True
+upid_00ccd744,Evergreen Nephrology,KY,A04-Register,Hayes-White Medical Center,CommonWell,2026-06-27T18:43,True,True,294.0,True
+upid_00ccd744,Evergreen Nephrology,KY,A03-Discharge,Buchanan-Griffin Medical Center,Carequality,2026-06-28T14:51,True,True,1208.0,False
+upid_00ec74a8,Firefly Health,MA,A03-Discharge,James-Scott Medical Center,CommonWell,2026-06-19T05:25,True,True,,False
+upid_00ec74a8,Firefly Health,MA,A04-Register,Castillo-Winters Medical Center,QHIN-eHX,2026-06-22T08:27,False,False,4502.0,False
+upid_00ec74a8,Firefly Health,MA,A04-Register,Carlson-George Medical Center,QHIN-eHX,2026-06-23T00:36,False,True,969.0,False
+upid_00ec74a8,Firefly Health,MA,A04-Register,Owens PLC Medical Center,CommonWell,2026-06-26T10:02,True,True,4886.0,False
+upid_00ff68ef,Firefly Health,MA,A08-Update,Duarte Inc Medical Center,Carequality,2026-06-16T04:59,False,False,,False
+upid_00ff68ef,Firefly Health,MA,A01-Admit,Griffin Ltd Medical Center,Carequality,2026-06-27T16:56,False,True,16557.0,False
+upid_010a2c0a,Firefly Health,RI,A03-Discharge,Perez Ltd Medical Center,CommonWell,2026-06-17T23:14,False,False,,False
+upid_010a2c0a,Firefly Health,RI,A04-Register,"Day, Reyes and Horton Medical Center",CommonWell,2026-06-18T09:17,False,True,603.0,False
+upid_0111c527,DispatchHealth,NV,A08-Update,"Gonzalez, Jordan and Marks Medical Center",Carequality,2026-06-18T07:16,True,True,,False
+upid_0111c527,DispatchHealth,NV,A04-Register,Reed Group Medical Center,Carequality,2026-06-22T11:34,False,False,6018.0,False
+upid_0111c527,DispatchHealth,NV,A01-Admit,Avila-Johnson Medical Center,CommonWell,2026-06-27T15:47,False,True,7453.0,False
+upid_012c7ad8,DispatchHealth,CO,A04-Register,"Robles, Vega and Wiggins Medical Center",QHIN-eHX,2026-06-22T23:11,True,True,,False
+upid_01746cb2,Firefly Health,CT,A08-Update,"Hebert, Goodman and Myers Medical Center",Carequality,2026-06-18T13:27,True,True,,False
+upid_0184b942,Author Health,TX,A02-Transfer,Mendez-Lewis Medical Center,CommonWell,2026-06-18T17:10,True,False,,False
+upid_0184b942,Author Health,TX,A02-Transfer,"Martinez, Ellis and Welch Medical Center",Carequality,2026-06-19T14:24,True,True,1274.0,False
+upid_0184b942,Author Health,TX,A01-Admit,Robinson Ltd Medical Center,Carequality,2026-06-23T11:23,True,True,5579.0,False
+upid_019d412d,Author Health,TX,A01-Admit,Silva-Allen Medical Center,CommonWell,2026-06-19T22:51,False,True,,False
+upid_019d412d,Author Health,TX,A01-Admit,Sharp and Sons Medical Center,CommonWell,2026-06-23T09:24,True,False,4953.0,False
+upid_019d412d,Author Health,TX,A02-Transfer,"Acevedo, Daniel and Brown Medical Center",QHIN-eHX,2026-06-24T05:40,False,False,1216.0,False
+upid_01ac5c1f,Firefly Health,RI,A04-Register,"Erickson, Sherman and Perez Medical Center",QHIN-eHX,2026-06-22T10:40,False,True,,False
+upid_01bcbdce,Evergreen Nephrology,NC,A08-Update,"Burnett, Taylor and Roberts Medical Center",CommonWell,2026-06-27T22:15,True,True,,False
+upid_01c7231d,HarmonyCares,PA,A01-Admit,Allen PLC Medical Center,Carequality,2026-06-24T18:52,True,False,,False
+upid_01e5f9a0,DispatchHealth,WA,A02-Transfer,"Aguilar, Cole and Williams Medical Center",Carequality,2026-06-18T01:29,True,False,,False
+upid_01e5f9a0,DispatchHealth,WA,A03-Discharge,"King, Ibarra and Chavez Medical Center",CommonWell,2026-06-20T01:24,False,False,2875.0,False
+upid_01e5f9a0,DispatchHealth,WA,A04-Register,Mitchell-Miller Medical Center,CommonWell,2026-06-21T14:23,True,False,2219.0,False
+upid_01e9f20b,HarmonyCares,OH,A03-Discharge,Jones PLC Medical Center,QHIN-eHX,2026-06-15T00:59,True,True,,False
+upid_01e9f20b,HarmonyCares,OH,A02-Transfer,Perez Inc Medical Center,QHIN-eHX,2026-06-15T17:35,False,True,996.0,False
+upid_01e9f20b,HarmonyCares,OH,A02-Transfer,Nelson-Lam Medical Center,CommonWell,2026-06-20T02:28,False,False,6293.0,False
+upid_01e9f20b,HarmonyCares,OH,A03-Discharge,"Nolan, Rosales and Adams Medical Center",CommonWell,2026-06-22T05:01,False,False,3033.0,False
+upid_01e9f20b,HarmonyCares,OH,A04-Register,"Hess, Rodriguez and Olson Medical Center",QHIN-eHX,2026-06-25T04:58,False,False,4317.0,False
+upid_01f60db2,HarmonyCares,FL,A04-Register,"Banks, Sloan and Golden Medical Center",QHIN-eHX,2026-06-18T17:45,False,False,,False
+upid_02802e11,HarmonyCares,MI,A08-Update,Williams PLC Medical Center,CommonWell,2026-06-21T21:12,True,True,,False
+upid_02802e11,HarmonyCares,MI,A04-Register,"Bradshaw, Yu and Rivas Medical Center",Carequality,2026-06-24T15:52,True,False,4000.0,False
+upid_0287b474,HarmonyCares,PA,A08-Update,"Morris, Holt and Smith Medical Center",QHIN-eHX,2026-06-15T02:36,True,True,,False
+upid_028be03d,Firefly Health,RI,A02-Transfer,Hill-Thomas Medical Center,Carequality,2026-06-26T00:16,True,True,,False
+upid_029028cc,Firefly Health,CT,A04-Register,"Spears, Sandoval and Foster Medical Center",CommonWell,2026-06-15T09:17,False,True,,False
+upid_029028cc,Firefly Health,CT,A04-Register,"Stewart, Evans and Fisher Medical Center",CommonWell,2026-06-16T09:52,False,False,1475.0,False
+upid_029028cc,Firefly Health,CT,A04-Register,"Green, Brown and Manning Medical Center",CommonWell,2026-06-22T21:57,False,True,9365.0,False
+upid_029028cc,Firefly Health,CT,A04-Register,"Taylor, Harper and Rivera Medical Center",QHIN-eHX,2026-06-25T04:16,True,True,3259.0,False
+upid_0294043d,DispatchHealth,OR,A01-Admit,"Johnston, Mcclure and Mejia Medical Center",Carequality,2026-06-16T21:54,False,False,,False
+upid_02b76f47,Author Health,GA,A08-Update,Rodriguez Ltd Medical Center,CommonWell,2026-06-15T11:46,False,True,,False
+upid_02b76f47,Author Health,GA,A04-Register,Hamilton-Moore Medical Center,CommonWell,2026-06-16T05:07,False,True,1041.0,False
+upid_02b76f47,Author Health,GA,A03-Discharge,Roberts Group Medical Center,Carequality,2026-06-20T07:40,False,True,5913.0,False
+upid_02b76f47,Author Health,GA,A04-Register,Marquez Inc Medical Center,CommonWell,2026-06-26T22:39,True,True,9539.0,False
+upid_02b76f47,Author Health,GA,A02-Transfer,"Gomez, Newton and Lewis Medical Center",QHIN-eHX,2026-06-27T21:35,True,True,1376.0,False
+upid_02d64605,HarmonyCares,PA,A08-Update,Rollins-Camacho Medical Center,QHIN-eHX,2026-06-19T22:00,True,False,,False
+upid_02d64605,HarmonyCares,PA,A02-Transfer,"Barnes, Marshall and Caldwell Medical Center",QHIN-eHX,2026-06-22T08:06,False,True,3486.0,False
+upid_02d64605,HarmonyCares,PA,A04-Register,Gay LLC Medical Center,Carequality,2026-06-24T16:52,False,True,3406.0,False
+upid_02d64605,HarmonyCares,PA,A04-Register,Dodson LLC Medical Center,QHIN-eHX,2026-06-25T09:34,False,True,1002.0,False
+upid_02e3b5ed,Evergreen Nephrology,NC,A01-Admit,King-Richardson Medical Center,QHIN-eHX,2026-06-15T16:45,True,False,,False
+upid_02f5440e,Evergreen Nephrology,NC,A01-Admit,Alvarado and Sons Medical Center,Carequality,2026-06-24T09:05,True,False,,False
+upid_02f5440e,Evergreen Nephrology,NC,A04-Register,Wright-Davis Medical Center,QHIN-eHX,2026-06-28T06:30,False,True,5605.0,False
+upid_03296a15,Firefly Health,MA,A02-Transfer,"Perez, Mason and Miller Medical Center",QHIN-eHX,2026-06-16T18:19,False,False,,False
+upid_03296a15,Firefly Health,MA,A04-Register,Murphy-Cooper Medical Center,Carequality,2026-06-17T09:34,True,True,915.0,False
+upid_03296a15,Firefly Health,MA,A01-Admit,"Pittman, Walters and Mills Medical Center",CommonWell,2026-06-21T05:09,False,True,5495.0,False
+upid_03296a15,Firefly Health,MA,A02-Transfer,Barnes-Ortiz Medical Center,QHIN-eHX,2026-06-28T01:15,True,True,9846.0,False
+upid_0331824b,Evergreen Nephrology,VA,A03-Discharge,Horne-Turner Medical Center,QHIN-eHX,2026-06-15T15:10,True,True,,False
+upid_0331824b,Evergreen Nephrology,VA,A01-Admit,"Daniel, Adams and Jenkins Medical Center",CommonWell,2026-06-22T08:51,False,True,9701.0,False
+upid_0331824b,Evergreen Nephrology,VA,A03-Discharge,"Williamson, Moody and Fitzgerald Medical Center",QHIN-eHX,2026-06-22T19:36,False,False,645.0,False
+upid_0354e210,Author Health,GA,A03-Discharge,Brown PLC Medical Center,CommonWell,2026-06-15T22:56,False,True,,False
+upid_0354e210,Author Health,GA,A03-Discharge,Garcia-Lee Medical Center,QHIN-eHX,2026-06-18T09:31,True,True,3515.0,False
+upid_0354e210,Author Health,GA,A04-Register,Ramos-Short Medical Center,QHIN-eHX,2026-06-22T08:42,False,True,5711.0,False
+upid_0354e210,Author Health,GA,A02-Transfer,Huber-Sims Medical Center,Carequality,2026-06-28T08:50,False,True,8648.0,False
+upid_0354eb58,Author Health,FL,A08-Update,Smith-Guerra Medical Center,Carequality,2026-06-22T13:17,False,True,,False
+upid_0354eb58,Author Health,FL,A02-Transfer,"Cruz, Patterson and Brown Medical Center",QHIN-eHX,2026-06-23T02:47,False,True,810.0,False
+upid_0354eb58,Author Health,FL,A02-Transfer,"Lopez, Lewis and Johnson Medical Center",Carequality,2026-06-23T03:59,False,True,72.0,True
+upid_0354eb58,Author Health,FL,A03-Discharge,"Martinez, Wagner and Medina Medical Center",QHIN-eHX,2026-06-23T06:34,True,True,155.0,True
+upid_0354eb58,Author Health,FL,A02-Transfer,"Patterson, Leon and Hicks Medical Center",QHIN-eHX,2026-06-25T23:58,True,True,3924.0,False
+upid_0354eb58,Author Health,FL,A08-Update,Lee-Mitchell Medical Center,CommonWell,2026-06-27T04:19,True,True,1701.0,False
+upid_0354eb58,Author Health,FL,A01-Admit,Dougherty-Francis Medical Center,QHIN-eHX,2026-06-27T20:43,False,False,984.0,False
+upid_03689165,HarmonyCares,TX,A04-Register,Wolfe-Miller Medical Center,CommonWell,2026-06-17T23:48,False,False,,False
+upid_03689165,HarmonyCares,TX,A02-Transfer,"Brown, Jackson and Torres Medical Center",QHIN-eHX,2026-06-18T07:13,False,True,445.0,False
+upid_03689165,HarmonyCares,TX,A08-Update,"Anderson, Griffin and Davis Medical Center",Carequality,2026-06-24T11:46,False,True,8913.0,False
+upid_038d8149,Firefly Health,CT,A02-Transfer,Hall-Contreras Medical Center,QHIN-eHX,2026-06-27T12:13,False,True,,False
+upid_03a1d42c,HarmonyCares,TX,A08-Update,"Cardenas, Hayes and Perez Medical Center",Carequality,2026-06-28T22:13,True,True,,False
+upid_04340fda,Firefly Health,RI,A08-Update,"Martin, Mcbride and Wolfe Medical Center",CommonWell,2026-06-18T17:31,True,True,,False
+upid_04340fda,Firefly Health,RI,A08-Update,"Cain, Lopez and White Medical Center",Carequality,2026-06-20T02:06,True,True,1955.0,False
+upid_04472c87,Evergreen Nephrology,TN,A04-Register,Burke-Bradford Medical Center,CommonWell,2026-06-24T02:30,False,True,,False
+upid_04472c87,Evergreen Nephrology,TN,A03-Discharge,Riddle Group Medical Center,QHIN-eHX,2026-06-27T14:36,True,True,5046.0,False
+upid_0463695c,Firefly Health,MA,A08-Update,Watson and Sons Medical Center,Carequality,2026-06-17T13:01,False,True,,False
+upid_0463695c,Firefly Health,MA,A08-Update,Drake-Johnson Medical Center,CommonWell,2026-06-25T02:40,False,True,10899.0,False
+upid_0463695c,Firefly Health,MA,A03-Discharge,"Wilson, Fisher and Miller Medical Center",QHIN-eHX,2026-06-25T15:15,False,True,755.0,False
+upid_0463695c,Firefly Health,MA,A08-Update,Lewis and Sons Medical Center,QHIN-eHX,2026-06-25T16:12,False,False,57.0,True
+upid_0476c4f0,Evergreen Nephrology,VA,A03-Discharge,Mcdowell Ltd Medical Center,QHIN-eHX,2026-06-16T06:55,False,False,,False
+upid_04883d2c,Author Health,GA,A02-Transfer,"Bush, Cole and Gutierrez Medical Center",CommonWell,2026-06-25T10:57,False,True,,False
+upid_04883d2c,Author Health,GA,A03-Discharge,Jones and Sons Medical Center,QHIN-eHX,2026-06-28T09:42,False,False,4245.0,False
+upid_048b91b7,Evergreen Nephrology,KY,A04-Register,"Tucker, Allen and Rodriguez Medical Center",Carequality,2026-06-20T17:59,False,False,,False
+upid_048b91b7,Evergreen Nephrology,KY,A08-Update,Hays-Bowman Medical Center,CommonWell,2026-06-21T22:12,False,True,1693.0,False
+upid_048b91b7,Evergreen Nephrology,KY,A08-Update,"Gray, Jenkins and Patel Medical Center",CommonWell,2026-06-23T19:58,True,False,2746.0,False
+upid_048b91b7,Evergreen Nephrology,KY,A08-Update,Garza Ltd Medical Center,Carequality,2026-06-28T01:28,False,False,6090.0,False
+upid_049301c7,HarmonyCares,TX,A04-Register,Buck-Wilson Medical Center,CommonWell,2026-06-17T06:11,True,True,,False
+upid_049301c7,HarmonyCares,TX,A01-Admit,Nicholson Ltd Medical Center,CommonWell,2026-06-25T05:02,False,False,11451.0,False
+upid_049301c7,HarmonyCares,TX,A01-Admit,Wilson Ltd Medical Center,CommonWell,2026-06-28T04:54,True,True,4312.0,False
+upid_049d35aa,Author Health,GA,A01-Admit,Wood-Thomas Medical Center,QHIN-eHX,2026-06-23T11:16,False,True,,False
+upid_04adf787,Author Health,FL,A03-Discharge,Bates-Watkins Medical Center,CommonWell,2026-06-24T04:06,False,True,,False
+upid_04b41f86,HarmonyCares,FL,A01-Admit,Morrow Group Medical Center,Carequality,2026-06-24T09:45,False,True,,False
+upid_04cb46cb,Author Health,TX,A03-Discharge,Woods-Lewis Medical Center,Carequality,2026-06-15T15:26,False,True,,False
+upid_04cb46cb,Author Health,TX,A08-Update,"Sandoval, Brown and Gordon Medical Center",Carequality,2026-06-17T01:08,True,True,2022.0,False
+upid_04cb46cb,Author Health,TX,A04-Register,Henson-Walls Medical Center,CommonWell,2026-06-19T21:42,True,True,4114.0,False
+upid_04cb46cb,Author Health,TX,A01-Admit,"Kane, Cunningham and Lopez Medical Center",Carequality,2026-06-20T01:18,False,True,216.0,True
+upid_04cb46cb,Author Health,TX,A03-Discharge,Odonnell LLC Medical Center,CommonWell,2026-06-21T06:26,False,True,1748.0,False
+upid_04cb46cb,Author Health,TX,A04-Register,Walsh Group Medical Center,CommonWell,2026-06-21T13:11,True,False,405.0,False
+upid_04cb46cb,Author Health,TX,A04-Register,"Carter, Collins and Morton Medical Center",Carequality,2026-06-25T02:05,False,False,5094.0,False
+upid_04cb46cb,Author Health,TX,A02-Transfer,"Nielsen, Anderson and Osborn Medical Center",CommonWell,2026-06-26T11:07,True,False,1982.0,False
+upid_04d9682f,Evergreen Nephrology,NC,A02-Transfer,"Jackson, White and Porter Medical Center",QHIN-eHX,2026-06-18T15:51,False,True,,False
+upid_050b7ca0,HarmonyCares,OH,A01-Admit,"Murphy, Garcia and Powell Medical Center",QHIN-eHX,2026-06-24T21:28,False,True,,False
+upid_0531faa1,Evergreen Nephrology,VA,A02-Transfer,"Graves, Fuller and Howard Medical Center",QHIN-eHX,2026-06-15T00:30,False,False,,False
+upid_057b2408,Author Health,FL,A01-Admit,Bond Group Medical Center,QHIN-eHX,2026-06-17T16:17,False,False,,False
+upid_057b2408,Author Health,FL,A08-Update,"Petersen, Palmer and Burns Medical Center",QHIN-eHX,2026-06-18T20:37,False,True,1700.0,False
+upid_057b2408,Author Health,FL,A04-Register,Curtis and Sons Medical Center,Carequality,2026-06-26T09:34,False,True,10857.0,False
+upid_057b2408,Author Health,FL,A03-Discharge,"Lyons, Peterson and Wolfe Medical Center",Carequality,2026-06-27T09:31,False,True,1437.0,False
+upid_057b2408,Author Health,FL,A08-Update,"Lopez, Johnson and Murphy Medical Center",QHIN-eHX,2026-06-27T16:02,False,True,391.0,False
+upid_057b2408,Author Health,FL,A01-Admit,"Cooper, Wolfe and Sanders Medical Center",Carequality,2026-06-28T12:03,True,True,1201.0,False
+upid_0589184d,Author Health,TX,A01-Admit,"Floyd, Quinn and Zhang Medical Center",CommonWell,2026-06-27T16:31,False,False,,False
+upid_05a1c3e2,Evergreen Nephrology,NC,A04-Register,Hurst-Hernandez Medical Center,CommonWell,2026-06-19T23:16,False,True,,False
+upid_05a1c3e2,Evergreen Nephrology,NC,A02-Transfer,Everett-Nunez Medical Center,Carequality,2026-06-20T01:48,False,False,152.0,True
+upid_05a1c3e2,Evergreen Nephrology,NC,A03-Discharge,Rose LLC Medical Center,QHIN-eHX,2026-06-26T17:40,True,True,9592.0,False
+upid_05a1c3e2,Evergreen Nephrology,NC,A03-Discharge,Harvey-Rollins Medical Center,CommonWell,2026-06-27T09:47,True,False,967.0,False
+upid_05b3b21b,Author Health,TX,A01-Admit,Pace Inc Medical Center,CommonWell,2026-06-16T21:58,True,True,,False
+upid_05b3b21b,Author Health,TX,A08-Update,Patterson-Hale Medical Center,QHIN-eHX,2026-06-18T21:00,False,True,2822.0,False
+upid_05b3b21b,Author Health,TX,A08-Update,Austin PLC Medical Center,QHIN-eHX,2026-06-24T14:52,False,True,8272.0,False
+upid_05b3b21b,Author Health,TX,A04-Register,"Martin, Bradley and Thomas Medical Center",CommonWell,2026-06-26T00:41,False,True,2029.0,False
+upid_063f2e42,Author Health,GA,A03-Discharge,"King, Spence and Lewis Medical Center",QHIN-eHX,2026-06-21T10:03,False,True,,False
+upid_063f2e42,Author Health,GA,A01-Admit,"Price, Davis and Brown Medical Center",CommonWell,2026-06-22T01:26,False,False,923.0,False
+upid_063f2e42,Author Health,GA,A03-Discharge,Lee-Morrison Medical Center,Carequality,2026-06-27T03:26,True,True,7320.0,False
+upid_064c2957,HarmonyCares,PA,A01-Admit,Griffith-Avila Medical Center,Carequality,2026-06-20T21:34,True,False,,False
+upid_064c2957,HarmonyCares,PA,A03-Discharge,"Adams, Thomas and Robinson Medical Center",QHIN-eHX,2026-06-25T12:54,False,True,6680.0,False
+upid_064d49d9,HarmonyCares,OH,A04-Register,Hess Group Medical Center,Carequality,2026-06-17T00:43,False,False,,False
+upid_064d49d9,HarmonyCares,OH,A02-Transfer,"Bell, Anthony and Chavez Medical Center",CommonWell,2026-06-19T11:33,False,True,3530.0,False
+upid_064d49d9,HarmonyCares,OH,A03-Discharge,Smith Inc Medical Center,QHIN-eHX,2026-06-25T13:18,False,True,8745.0,False
+upid_06508317,Firefly Health,MA,A08-Update,"Lucas, Martinez and Peters Medical Center",QHIN-eHX,2026-06-20T01:05,True,True,,False
+upid_06508317,Firefly Health,MA,A02-Transfer,Jones-Olson Medical Center,QHIN-eHX,2026-06-25T01:57,False,True,7252.0,False
+upid_0659453d,Firefly Health,RI,A01-Admit,"Buck, Crosby and Jackson Medical Center",CommonWell,2026-06-23T00:17,False,False,,False
+upid_0659453d,Firefly Health,RI,A03-Discharge,Gonzales-Warner Medical Center,Carequality,2026-06-27T13:31,False,False,6554.0,False
+upid_065b9913,DispatchHealth,OR,A02-Transfer,"Alexander, Shepherd and Mcdaniel Medical Center",Carequality,2026-06-23T01:31,False,False,,False
+upid_065b9913,DispatchHealth,OR,A01-Admit,Stewart-Holmes Medical Center,QHIN-eHX,2026-06-27T05:33,True,True,6002.0,False
+upid_067018c8,Firefly Health,NH,A01-Admit,Miles-Miller Medical Center,CommonWell,2026-06-26T15:06,True,True,,False
+upid_06870c0a,Evergreen Nephrology,VA,A03-Discharge,"Lewis, Johnson and Monroe Medical Center",CommonWell,2026-06-24T15:55,False,False,,False
+upid_06870c0a,Evergreen Nephrology,VA,A01-Admit,Robertson Ltd Medical Center,CommonWell,2026-06-26T03:57,True,False,2162.0,False
+upid_06901f89,HarmonyCares,MI,A08-Update,Wu-Harris Medical Center,QHIN-eHX,2026-06-23T05:49,False,False,,False
+upid_0695eace,Author Health,FL,A01-Admit,"Rosario, Wilson and Green Medical Center",CommonWell,2026-06-20T14:34,True,False,,False
+upid_0695eace,Author Health,FL,A08-Update,Gutierrez PLC Medical Center,Carequality,2026-06-23T13:41,False,True,4267.0,False
+upid_06c61dce,Evergreen Nephrology,NC,A02-Transfer,Steele LLC Medical Center,CommonWell,2026-06-15T22:07,True,True,,False
+upid_06c61dce,Evergreen Nephrology,NC,A04-Register,Solis Ltd Medical Center,Carequality,2026-06-17T20:56,True,True,2809.0,False
+upid_06c61dce,Evergreen Nephrology,NC,A08-Update,"Chavez, Davidson and Watson Medical Center",CommonWell,2026-06-18T23:49,True,True,1613.0,False
+upid_06c61dce,Evergreen Nephrology,NC,A04-Register,Stewart PLC Medical Center,Carequality,2026-06-20T18:58,True,False,2589.0,False
+upid_06c61dce,Evergreen Nephrology,NC,A02-Transfer,"Simmons, Williams and Williamson Medical Center",QHIN-eHX,2026-06-22T04:24,False,False,2006.0,False
+upid_06c61dce,Evergreen Nephrology,NC,A01-Admit,"Castillo, Rollins and Haley Medical Center",Carequality,2026-06-28T14:24,True,True,9240.0,False
+upid_06d79e8a,HarmonyCares,PA,A02-Transfer,Campbell-Rojas Medical Center,CommonWell,2026-06-22T16:47,True,True,,False
+upid_06d79e8a,HarmonyCares,PA,A01-Admit,"Collins, Ho and Wilson Medical Center",CommonWell,2026-06-28T00:55,True,True,7688.0,False
+upid_06f68436,Firefly Health,MA,A01-Admit,Crawford-Downs Medical Center,QHIN-eHX,2026-06-16T15:30,True,True,,False
+upid_070af7f1,Firefly Health,CT,A02-Transfer,Ward Ltd Medical Center,QHIN-eHX,2026-06-15T15:42,False,False,,False
+upid_070af7f1,Firefly Health,CT,A02-Transfer,Jennings-Leonard Medical Center,QHIN-eHX,2026-06-21T05:06,True,True,8004.0,False

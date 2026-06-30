@@ -1,0 +1,201 @@
+patient_id,upid,customer,state,age,data_source,source_ehr
+pt_d1026706,upid_30877432,HarmonyCares,MI,72,,Healthie
+pt_d7e805da,upid_30877432,HarmonyCares,MI,72,CommonWell,Canvas
+pt_846a32c3,upid_30877432,HarmonyCares,MI,72,CommonWell,Cerner
+pt_bb81e3c2,upid_30877432,HarmonyCares,MI,72,Labcorp,Cerner
+pt_73c8eb5b,upid_9b621792,DispatchHealth,WA,61,,Canvas
+pt_b682575e,upid_9b621792,DispatchHealth,WA,61,Carequality,Cerner
+pt_c87a171a,upid_9b621792,DispatchHealth,WA,61,CommonWell,Canvas
+pt_e48478dc,upid_c826a6fc,DispatchHealth,OR,53,,Canvas
+pt_b74f2134,upid_c826a6fc,DispatchHealth,OR,53,Quest,Canvas
+pt_5d2cce80,upid_c826a6fc,DispatchHealth,OR,53,Labcorp,Veradigm
+pt_0853964b,upid_38a39d5e,Firefly Health,CT,54,,Epic
+pt_50af03b9,upid_38a39d5e,Firefly Health,CT,54,QHIN-eHX,Epic
+pt_71722f24,upid_38a39d5e,Firefly Health,CT,54,CommonWell,Veradigm
+pt_4f58d669,upid_38a39d5e,Firefly Health,CT,54,QHIN-eHX,Elation
+pt_a0770217,upid_cbee3772,Firefly Health,NH,47,,Healthie
+pt_21a278f6,upid_cbee3772,Firefly Health,NH,47,Carequality,Cerner
+pt_4f7fd633,upid_cbee3772,Firefly Health,NH,47,Surescripts,Cerner
+pt_dbdde131,upid_cbee3772,Firefly Health,NH,47,QHIN-eHX,Healthie
+pt_d58e72e3,upid_ca3766e4,DispatchHealth,NV,38,,Canvas
+pt_10275dff,upid_ca3766e4,DispatchHealth,NV,38,Labcorp,Other
+pt_e9df4696,upid_6c15c0c8,DispatchHealth,CO,43,,athenahealth
+pt_11a11f51,upid_6c15c0c8,DispatchHealth,CO,43,Carequality,Elation
+pt_25227c37,upid_6c15c0c8,DispatchHealth,CO,43,Labcorp,Healthie
+pt_12da86a7,upid_6c15c0c8,DispatchHealth,CO,43,Quest,Canvas
+pt_8c49ea20,upid_6c15c0c8,DispatchHealth,CO,43,Labcorp,Cerner
+pt_7b95e909,upid_e32684b2,HarmonyCares,OH,70,,Healthie
+pt_34833489,upid_e32684b2,HarmonyCares,OH,70,Carequality,Canvas
+pt_6a68f812,upid_e32684b2,HarmonyCares,OH,70,Carequality,Veradigm
+pt_ed03241b,upid_d810a485,Author Health,GA,63,,Healthie
+pt_4d419b1b,upid_d810a485,Author Health,GA,63,CommonWell,Healthie
+pt_5d05ad78,upid_673bd475,Author Health,FL,44,,Healthie
+pt_53c1f76e,upid_673bd475,Author Health,FL,44,Labcorp,Cerner
+pt_b97706ca,upid_673bd475,Author Health,FL,44,Quest,athenahealth
+pt_828bca03,upid_673bd475,Author Health,FL,44,Quest,Canvas
+pt_85813dba,upid_673bd475,Author Health,FL,44,CommonWell,Other
+pt_6bd2aa39,upid_d3c681d0,Evergreen Nephrology,NC,40,,Epic
+pt_9dac946d,upid_d3c681d0,Evergreen Nephrology,NC,40,CommonWell,Healthie
+pt_c59c0996,upid_d3c681d0,Evergreen Nephrology,NC,40,Carequality,Canvas
+pt_daeee6f5,upid_d3c681d0,Evergreen Nephrology,NC,40,Carequality,Healthie
+pt_29a27976,upid_d3c681d0,Evergreen Nephrology,NC,40,Surescripts,Elation
+pt_4017f2ed,upid_d3c681d0,Evergreen Nephrology,NC,40,Carequality,Canvas
+pt_6cfc7403,upid_d3c681d0,Evergreen Nephrology,NC,40,Quest,Healthie
+pt_4eaede5f,upid_d75e173e,Firefly Health,CT,67,,athenahealth
+pt_e878f78e,upid_d75e173e,Firefly Health,CT,67,Labcorp,Other
+pt_47c462dd,upid_2978aa24,Firefly Health,RI,45,,Elation
+pt_aed16dc0,upid_2978aa24,Firefly Health,RI,45,CommonWell,Elation
+pt_cf0b9cd7,upid_2978aa24,Firefly Health,RI,45,Labcorp,Veradigm
+pt_f78df0ca,upid_2978aa24,Firefly Health,RI,45,Quest,Veradigm
+pt_d4e518ca,upid_c5e40c02,Author Health,FL,35,,Elation
+pt_6eaac8d8,upid_c5e40c02,Author Health,FL,35,Quest,Other
+pt_2f01b721,upid_c5e40c02,Author Health,FL,35,Carequality,Epic
+pt_0760474f,upid_c5e40c02,Author Health,FL,35,Carequality,athenahealth
+pt_9309cc62,upid_36e8b535,Firefly Health,CT,74,,Epic
+pt_73931bdb,upid_36e8b535,Firefly Health,CT,74,Carequality,Veradigm
+pt_2a0df3db,upid_36e8b535,Firefly Health,CT,74,Surescripts,Other
+pt_e4d58fed,upid_36e8b535,Firefly Health,CT,74,Quest,Elation
+pt_ca0fa5f6,upid_8a728e7e,DispatchHealth,CO,79,,Canvas
+pt_b8a88062,upid_8a728e7e,DispatchHealth,CO,79,Labcorp,Elation
+pt_7df7ffe0,upid_8a728e7e,DispatchHealth,CO,79,Labcorp,Healthie
+pt_297c79bf,upid_8a728e7e,DispatchHealth,CO,79,Carequality,Elation
+pt_736a3566,upid_bdabe898,Evergreen Nephrology,KY,60,,athenahealth
+pt_f893697b,upid_bdabe898,Evergreen Nephrology,KY,60,Carequality,Elation
+pt_59048119,upid_bdabe898,Evergreen Nephrology,KY,60,Quest,athenahealth
+pt_4f309ffe,upid_bdabe898,Evergreen Nephrology,KY,60,Quest,Cerner
+pt_a518f32c,upid_bdabe898,Evergreen Nephrology,KY,60,Labcorp,Elation
+pt_f2144927,upid_bdabe898,Evergreen Nephrology,KY,60,Labcorp,Canvas
+pt_91366825,upid_3d7cee9d,Firefly Health,RI,56,,Elation
+pt_75250def,upid_3d7cee9d,Firefly Health,RI,56,Quest,Epic
+pt_91799e27,upid_3d7cee9d,Firefly Health,RI,56,Quest,Healthie
+pt_86d37484,upid_3d7cee9d,Firefly Health,RI,56,Surescripts,Epic
+pt_21599e3e,upid_3d7cee9d,Firefly Health,RI,56,Carequality,Healthie
+pt_9c8fe21d,upid_3d7cee9d,Firefly Health,RI,56,QHIN-eHX,Canvas
+pt_a8027081,upid_3d7cee9d,Firefly Health,RI,56,Carequality,Canvas
+pt_fbdaa35a,upid_5fe85df2,DispatchHealth,CO,65,,Canvas
+pt_df9c1e2a,upid_5fe85df2,DispatchHealth,CO,65,Labcorp,Other
+pt_8a3c0ed1,upid_5fe85df2,DispatchHealth,CO,65,Carequality,athenahealth
+pt_6bfe1684,upid_5fe85df2,DispatchHealth,CO,65,CommonWell,Other
+pt_0d273e34,upid_9ef30759,DispatchHealth,AZ,58,,Healthie
+pt_f98dff7e,upid_9ef30759,DispatchHealth,AZ,58,Quest,Veradigm
+pt_4c6428da,upid_9ef30759,DispatchHealth,AZ,58,CommonWell,Canvas
+pt_8099f4ef,upid_9ef30759,DispatchHealth,AZ,58,Labcorp,Elation
+pt_7d1afcc4,upid_bacea67c,Evergreen Nephrology,NC,49,,athenahealth
+pt_f14a3e3e,upid_bacea67c,Evergreen Nephrology,NC,49,Quest,Other
+pt_04d42f8a,upid_bacea67c,Evergreen Nephrology,NC,49,Carequality,Canvas
+pt_c2acaf12,upid_bacea67c,Evergreen Nephrology,NC,49,CommonWell,Cerner
+pt_7972d33e,upid_bacea67c,Evergreen Nephrology,NC,49,QHIN-eHX,Epic
+pt_5901a19b,upid_bacea67c,Evergreen Nephrology,NC,49,Quest,Canvas
+pt_bd47d555,upid_bacea67c,Evergreen Nephrology,NC,49,Quest,Canvas
+pt_2c7f47e8,upid_bacea67c,Evergreen Nephrology,NC,49,Carequality,Cerner
+pt_b9d8e96c,upid_e80e952e,HarmonyCares,OH,54,,Canvas
+pt_f37cb990,upid_e80e952e,HarmonyCares,OH,54,Carequality,Healthie
+pt_c801f97b,upid_e80e952e,HarmonyCares,OH,54,Carequality,Canvas
+pt_7684319e,upid_e80e952e,HarmonyCares,OH,54,QHIN-eHX,Other
+pt_64b858f9,upid_1b429ad5,Firefly Health,NH,56,,Epic
+pt_a3e247cb,upid_1b429ad5,Firefly Health,NH,56,Quest,Other
+pt_2c083eb8,upid_1b429ad5,Firefly Health,NH,56,CommonWell,Other
+pt_2e9d3411,upid_cb37f0a7,Evergreen Nephrology,KY,37,,Canvas
+pt_9f3374ce,upid_cb37f0a7,Evergreen Nephrology,KY,37,Carequality,Veradigm
+pt_bd4d3fd8,upid_cb37f0a7,Evergreen Nephrology,KY,37,QHIN-eHX,Veradigm
+pt_1b6ee7b3,upid_cb37f0a7,Evergreen Nephrology,KY,37,Surescripts,Other
+pt_2601a746,upid_bb1c863e,HarmonyCares,MI,72,,Canvas
+pt_2667a408,upid_bb1c863e,HarmonyCares,MI,72,Surescripts,Healthie
+pt_44853040,upid_bb1c863e,HarmonyCares,MI,72,Carequality,Canvas
+pt_b7a05814,upid_bb1c863e,HarmonyCares,MI,72,CommonWell,Canvas
+pt_d32feb3e,upid_bb1c863e,HarmonyCares,MI,72,Quest,Other
+pt_719e01fc,upid_bb1c863e,HarmonyCares,MI,72,CommonWell,Veradigm
+pt_248ac9ed,upid_d3fe22a4,Firefly Health,RI,61,,athenahealth
+pt_336de7da,upid_d3fe22a4,Firefly Health,RI,61,CommonWell,Cerner
+pt_ecd3ada8,upid_d3fe22a4,Firefly Health,RI,61,Surescripts,Cerner
+pt_3b41a3db,upid_b4f2222d,HarmonyCares,FL,65,,Canvas
+pt_d199b364,upid_b4f2222d,HarmonyCares,FL,65,Carequality,Canvas
+pt_d080589a,upid_f73bb387,Firefly Health,CT,99,,athenahealth
+pt_b054c240,upid_f73bb387,Firefly Health,CT,99,Surescripts,Canvas
+pt_26cdea5b,upid_f73bb387,Firefly Health,CT,99,Surescripts,Epic
+pt_8edfed86,upid_9a214512,Firefly Health,CT,70,,Canvas
+pt_3bd39f91,upid_9a214512,Firefly Health,CT,70,Surescripts,Elation
+pt_7c106964,upid_9a214512,Firefly Health,CT,70,Surescripts,Elation
+pt_89a30fd5,upid_9a214512,Firefly Health,CT,70,Surescripts,Other
+pt_0e2adcd9,upid_4c7b2c1d,Firefly Health,NH,63,,Healthie
+pt_3c0a5eb2,upid_4c7b2c1d,Firefly Health,NH,63,CommonWell,Epic
+pt_d37dc2c9,upid_4c7b2c1d,Firefly Health,NH,63,Quest,Epic
+pt_a7a5236b,upid_4c7b2c1d,Firefly Health,NH,63,Labcorp,Healthie
+pt_b4734865,upid_4c7b2c1d,Firefly Health,NH,63,Carequality,Epic
+pt_425feeaa,upid_4c7b2c1d,Firefly Health,NH,63,Quest,Other
+pt_b29ee11b,upid_4e2fe981,DispatchHealth,OR,55,,Elation
+pt_922ce1e6,upid_4e2fe981,DispatchHealth,OR,55,Carequality,Cerner
+pt_517ee5bb,upid_af41e3a2,Firefly Health,MA,80,,Epic
+pt_9cda1a2a,upid_af41e3a2,Firefly Health,MA,80,Carequality,Canvas
+pt_3c984a24,upid_af41e3a2,Firefly Health,MA,80,Surescripts,Cerner
+pt_42db0b95,upid_b9c429ca,DispatchHealth,AZ,36,,Epic
+pt_6af67442,upid_b9c429ca,DispatchHealth,AZ,36,Quest,Epic
+pt_931a4c45,upid_b9c429ca,DispatchHealth,AZ,36,Quest,Cerner
+pt_55e1db7e,upid_b9c429ca,DispatchHealth,AZ,36,Surescripts,Healthie
+pt_ee9cd564,upid_9e779f6b,Author Health,FL,65,,Healthie
+pt_81fb3392,upid_9e779f6b,Author Health,FL,65,CommonWell,Elation
+pt_58e4d27e,upid_9e779f6b,Author Health,FL,65,Surescripts,athenahealth
+pt_b0d1cb7c,upid_9e779f6b,Author Health,FL,65,Labcorp,Elation
+pt_419f4fe0,upid_2b70a3a4,Evergreen Nephrology,NC,78,,Canvas
+pt_20864d39,upid_2b70a3a4,Evergreen Nephrology,NC,78,Carequality,Other
+pt_79317de2,upid_2b70a3a4,Evergreen Nephrology,NC,78,Quest,Cerner
+pt_3f0749d0,upid_2b70a3a4,Evergreen Nephrology,NC,78,Carequality,Canvas
+pt_b7d52b20,upid_2b70a3a4,Evergreen Nephrology,NC,78,Quest,Elation
+pt_2b73a41b,upid_cf1cb80b,Firefly Health,RI,41,,Canvas
+pt_a5ef542e,upid_cf1cb80b,Firefly Health,RI,41,CommonWell,Healthie
+pt_196161a9,upid_cf1cb80b,Firefly Health,RI,41,QHIN-eHX,athenahealth
+pt_cf8169b1,upid_cf1cb80b,Firefly Health,RI,41,Surescripts,Elation
+pt_a83bdcec,upid_cf1cb80b,Firefly Health,RI,41,Quest,Epic
+pt_a5ffb82d,upid_cf1cb80b,Firefly Health,RI,41,Labcorp,Elation
+pt_2d59a32a,upid_cf1cb80b,Firefly Health,RI,41,Labcorp,Cerner
+pt_1bd812cb,upid_99ed5ebe,Firefly Health,RI,68,,Canvas
+pt_504e1427,upid_99ed5ebe,Firefly Health,RI,68,Carequality,athenahealth
+pt_bbc14ebb,upid_99ed5ebe,Firefly Health,RI,68,QHIN-eHX,Elation
+pt_305fc388,upid_e24bca87,DispatchHealth,AZ,70,,Healthie
+pt_e69f6342,upid_e24bca87,DispatchHealth,AZ,70,CommonWell,Elation
+pt_e5e2ab29,upid_e24bca87,DispatchHealth,AZ,70,Quest,Other
+pt_7f0bbe42,upid_955b7364,Author Health,FL,69,,Canvas
+pt_29cfdd24,upid_955b7364,Author Health,FL,69,Labcorp,Veradigm
+pt_d134955a,upid_a2eeb454,Author Health,FL,51,,Canvas
+pt_7b928684,upid_a2eeb454,Author Health,FL,51,QHIN-eHX,athenahealth
+pt_92545a10,upid_a2eeb454,Author Health,FL,51,Labcorp,Elation
+pt_2186d0f9,upid_a2eeb454,Author Health,FL,51,CommonWell,Other
+pt_5edfe6a4,upid_9f7c9e21,DispatchHealth,WA,77,,Epic
+pt_aabc4b3a,upid_9f7c9e21,DispatchHealth,WA,77,Carequality,Cerner
+pt_7e38e743,upid_9f7c9e21,DispatchHealth,WA,77,Carequality,athenahealth
+pt_19cd75aa,upid_9f7c9e21,DispatchHealth,WA,77,Quest,Epic
+pt_2ce76b11,upid_65fef9f0,Author Health,TX,46,,Epic
+pt_9ff903d4,upid_65fef9f0,Author Health,TX,46,CommonWell,Veradigm
+pt_8bcb1c16,upid_65fef9f0,Author Health,TX,46,CommonWell,Epic
+pt_b92ce834,upid_65fef9f0,Author Health,TX,46,QHIN-eHX,Healthie
+pt_1114afe4,upid_3cbab46c,HarmonyCares,PA,39,,Elation
+pt_4aa5c9af,upid_3cbab46c,HarmonyCares,PA,39,Labcorp,Canvas
+pt_9f0ba3d9,upid_3cbab46c,HarmonyCares,PA,39,Labcorp,Cerner
+pt_0f871f5c,upid_3cbab46c,HarmonyCares,PA,39,QHIN-eHX,Veradigm
+pt_471360ea,upid_3cbab46c,HarmonyCares,PA,39,Quest,athenahealth
+pt_d4d6df14,upid_3cbab46c,HarmonyCares,PA,39,CommonWell,athenahealth
+pt_6afca5ea,upid_3cbab46c,HarmonyCares,PA,39,CommonWell,Veradigm
+pt_996fafb8,upid_b8f67897,HarmonyCares,OH,50,,Healthie
+pt_93ccb491,upid_b8f67897,HarmonyCares,OH,50,Surescripts,Canvas
+pt_92be8f66,upid_b8f67897,HarmonyCares,OH,50,QHIN-eHX,athenahealth
+pt_88437717,upid_b8f67897,HarmonyCares,OH,50,Labcorp,Cerner
+pt_05dff69a,upid_713daf34,Evergreen Nephrology,TN,44,,athenahealth
+pt_912715d5,upid_713daf34,Evergreen Nephrology,TN,44,CommonWell,Canvas
+pt_1cf59109,upid_713daf34,Evergreen Nephrology,TN,44,Surescripts,Healthie
+pt_3a9ef4e8,upid_713daf34,Evergreen Nephrology,TN,44,QHIN-eHX,Canvas
+pt_63a5e850,upid_713daf34,Evergreen Nephrology,TN,44,CommonWell,Epic
+pt_c354fa70,upid_a965cda2,Firefly Health,CT,72,,Healthie
+pt_8c7e8a90,upid_a965cda2,Firefly Health,CT,72,QHIN-eHX,Cerner
+pt_8b713e95,upid_a965cda2,Firefly Health,CT,72,QHIN-eHX,Healthie
+pt_c939b774,upid_a965cda2,Firefly Health,CT,72,Labcorp,Veradigm
+pt_f4ebdf67,upid_a965cda2,Firefly Health,CT,72,Labcorp,Healthie
+pt_2eb23164,upid_a965cda2,Firefly Health,CT,72,Carequality,Cerner
+pt_5ae36f2e,upid_a965cda2,Firefly Health,CT,72,QHIN-eHX,athenahealth
+pt_0c80621d,upid_1e4de1e9,DispatchHealth,NV,55,,Canvas
+pt_b212f19d,upid_1e4de1e9,DispatchHealth,NV,55,Carequality,Veradigm
+pt_54dbcecc,upid_1e4de1e9,DispatchHealth,NV,55,QHIN-eHX,Healthie
+pt_24b35c47,upid_1e4de1e9,DispatchHealth,NV,55,Surescripts,Cerner
+pt_009edc77,upid_1e4de1e9,DispatchHealth,NV,55,Surescripts,Canvas
+pt_076231e1,upid_eb48631d,Author Health,FL,79,,athenahealth
+pt_71ce7614,upid_eb48631d,Author Health,FL,79,Carequality,Canvas
+pt_97aa7947,upid_eb48631d,Author Health,FL,79,QHIN-eHX,Veradigm

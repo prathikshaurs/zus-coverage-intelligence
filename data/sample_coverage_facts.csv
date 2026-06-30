@@ -1,0 +1,201 @@
+upid,customer,care_model,state,age_band,network,network_type,data_type,retrieved,n_resources,latency_min,timed_out,thin_payload,pull_date
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,Condition,True,16,16.0,False,False,2026-06-09
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,Encounter,False,0,71.0,False,False,2026-06-04
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,Observation,True,13,171.0,False,False,2026-06-20
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,DocumentReference,True,7,36.0,False,False,2026-06-20
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,MedicationStatement,True,11,37.0,False,False,2026-06-25
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,AllergyIntolerance,True,6,95.0,False,False,2026-06-02
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,Immunization,True,9,128.0,False,False,2026-06-24
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Carequality,national_clinical,Procedure,True,12,118.0,False,False,2026-06-08
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,Condition,True,14,297.0,False,False,2026-06-15
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,Encounter,True,18,58.0,False,False,2026-06-17
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,Observation,True,16,144.0,False,False,2026-05-31
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,DocumentReference,True,13,395.0,False,False,2026-06-05
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,MedicationStatement,True,6,81.0,False,False,2026-06-13
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,AllergyIntolerance,False,0,,True,False,2026-06-04
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,Immunization,True,19,213.0,False,False,2026-06-12
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,CommonWell,national_clinical,Procedure,False,0,182.0,False,False,2026-06-16
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,QHIN-eHX,qhin,Condition,True,13,167.0,False,False,2026-06-08
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,QHIN-eHX,qhin,Encounter,False,0,150.0,False,False,2026-06-28
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,QHIN-eHX,qhin,DocumentReference,False,0,118.0,False,False,2026-06-29
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,QHIN-eHX,qhin,Observation,True,17,296.0,False,False,2026-06-12
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,QHIN-eHX,qhin,Procedure,True,8,140.0,False,False,2026-06-23
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Surescripts,pharmacy,MedicationStatement,True,16,15.0,False,False,2026-06-10
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Surescripts,pharmacy,MedicationDispense,True,13,16.0,False,False,2026-06-19
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Quest,lab,Observation,True,16,25.0,False,False,2026-06-26
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Quest,lab,DiagnosticReport,True,18,25.0,False,False,2026-06-17
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Labcorp,lab,Observation,False,0,125.0,False,False,2026-06-06
+upid_30877432,HarmonyCares,home_based_primary,MI,65+,Labcorp,lab,DiagnosticReport,False,0,22.0,False,False,2026-06-03
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,Condition,True,20,141.0,False,False,2026-06-04
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,Encounter,True,15,49.0,False,False,2026-06-03
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,Observation,True,7,93.0,False,False,2026-06-21
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,DocumentReference,False,0,46.0,False,False,2026-06-16
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,MedicationStatement,True,11,78.0,False,False,2026-06-09
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,AllergyIntolerance,True,17,63.0,False,False,2026-06-13
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,Immunization,True,14,128.0,False,False,2026-06-09
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Carequality,national_clinical,Procedure,True,13,73.0,False,False,2026-06-25
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,Condition,True,14,97.0,False,False,2026-06-09
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,Encounter,True,18,113.0,False,False,2026-06-11
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,Observation,True,16,184.0,False,False,2026-05-31
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,DocumentReference,True,14,195.0,False,False,2026-06-20
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,MedicationStatement,True,19,147.0,False,False,2026-06-02
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,AllergyIntolerance,True,11,198.0,False,False,2026-06-28
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,Immunization,True,13,58.0,False,False,2026-06-16
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,CommonWell,national_clinical,Procedure,True,15,63.0,False,False,2026-06-07
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,QHIN-eHX,qhin,Condition,False,0,183.0,False,False,2026-06-22
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,QHIN-eHX,qhin,Encounter,False,0,46.0,False,False,2026-06-09
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,QHIN-eHX,qhin,DocumentReference,False,0,309.0,False,False,2026-06-13
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,QHIN-eHX,qhin,Observation,False,0,540.0,False,False,2026-06-01
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,QHIN-eHX,qhin,Procedure,True,16,127.0,False,False,2026-06-27
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Surescripts,pharmacy,MedicationStatement,False,0,21.0,False,False,2026-06-23
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Surescripts,pharmacy,MedicationDispense,True,9,28.0,False,False,2026-06-23
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Quest,lab,Observation,True,16,35.0,False,False,2026-06-18
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Quest,lab,DiagnosticReport,True,12,19.0,False,False,2026-06-06
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Labcorp,lab,Observation,True,10,58.0,False,False,2026-06-12
+upid_9b621792,DispatchHealth,in_home_acute,WA,40-64,Labcorp,lab,DiagnosticReport,True,16,14.0,False,False,2026-06-10
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,Condition,True,14,60.0,False,False,2026-06-26
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,Encounter,False,0,,True,False,2026-06-15
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,Observation,True,16,90.0,False,False,2026-06-02
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,DocumentReference,True,13,82.0,False,False,2026-06-24
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,MedicationStatement,True,22,356.0,False,False,2026-06-01
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,AllergyIntolerance,True,4,194.0,False,False,2026-06-02
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,Immunization,True,13,104.0,False,False,2026-06-27
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Carequality,national_clinical,Procedure,True,14,178.0,False,False,2026-06-17
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,Condition,True,16,57.0,False,False,2026-06-10
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,Encounter,False,0,13.0,False,False,2026-06-12
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,Observation,True,25,271.0,False,False,2026-06-22
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,DocumentReference,True,3,71.0,False,True,2026-06-28
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,MedicationStatement,True,19,169.0,False,False,2026-06-06
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,AllergyIntolerance,True,21,208.0,False,False,2026-06-14
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,Immunization,False,0,110.0,False,False,2026-06-29
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,CommonWell,national_clinical,Procedure,True,12,59.0,False,False,2026-05-31
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,QHIN-eHX,qhin,Condition,False,0,258.0,False,False,2026-06-07
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,QHIN-eHX,qhin,Encounter,True,11,57.0,False,False,2026-06-25
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,QHIN-eHX,qhin,DocumentReference,False,0,76.0,False,False,2026-06-13
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,QHIN-eHX,qhin,Observation,True,17,45.0,False,False,2026-06-26
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,QHIN-eHX,qhin,Procedure,False,0,92.0,False,False,2026-06-03
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Surescripts,pharmacy,MedicationStatement,False,0,17.0,False,False,2026-06-08
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Surescripts,pharmacy,MedicationDispense,True,12,32.0,False,False,2026-06-05
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Quest,lab,Observation,True,13,34.0,False,False,2026-06-06
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Quest,lab,DiagnosticReport,True,17,38.0,False,False,2026-06-14
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Labcorp,lab,Observation,True,13,57.0,False,False,2026-05-31
+upid_c826a6fc,DispatchHealth,in_home_acute,OR,40-64,Labcorp,lab,DiagnosticReport,True,15,54.0,False,False,2026-06-02
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,Condition,True,10,75.0,False,False,2026-06-08
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,Encounter,True,12,192.0,False,False,2026-06-16
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,Observation,True,14,131.0,False,False,2026-06-08
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,DocumentReference,False,0,,True,False,2026-06-01
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,MedicationStatement,True,17,108.0,False,False,2026-06-04
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,AllergyIntolerance,True,11,47.0,False,False,2026-06-01
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,Immunization,False,0,293.0,False,False,2026-06-21
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Carequality,national_clinical,Procedure,True,22,82.0,False,False,2026-06-19
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,Condition,True,8,176.0,False,False,2026-06-24
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,Encounter,True,21,25.0,False,False,2026-06-21
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,Observation,True,11,79.0,False,False,2026-06-14
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,DocumentReference,True,10,66.0,False,False,2026-06-18
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,MedicationStatement,True,14,83.0,False,False,2026-06-11
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,AllergyIntolerance,True,14,98.0,False,False,2026-06-15
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,Immunization,True,14,13.0,False,False,2026-06-02
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,CommonWell,national_clinical,Procedure,True,15,56.0,False,False,2026-06-05
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,QHIN-eHX,qhin,Condition,False,0,291.0,False,False,2026-06-17
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,QHIN-eHX,qhin,Encounter,True,14,39.0,False,False,2026-06-20
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,QHIN-eHX,qhin,DocumentReference,False,0,133.0,False,False,2026-06-22
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,QHIN-eHX,qhin,Observation,True,10,165.0,False,False,2026-06-14
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,QHIN-eHX,qhin,Procedure,True,11,81.0,False,False,2026-06-07
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Surescripts,pharmacy,MedicationStatement,False,0,,True,False,2026-06-03
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Surescripts,pharmacy,MedicationDispense,True,18,7.0,False,False,2026-06-13
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Quest,lab,Observation,True,12,66.0,False,False,2026-06-01
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Quest,lab,DiagnosticReport,True,15,52.0,False,False,2026-06-12
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Labcorp,lab,Observation,True,11,62.0,False,False,2026-06-17
+upid_38a39d5e,Firefly Health,virtual_primary,CT,40-64,Labcorp,lab,DiagnosticReport,False,0,,True,False,2026-06-08
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,Condition,False,0,23.0,False,False,2026-06-24
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,Encounter,True,7,91.0,False,False,2026-06-12
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,Observation,True,11,116.0,False,False,2026-06-26
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,DocumentReference,True,7,90.0,False,False,2026-06-15
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,MedicationStatement,True,16,74.0,False,False,2026-06-09
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,AllergyIntolerance,True,12,22.0,False,False,2026-06-15
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,Immunization,True,16,13.0,False,False,2026-06-21
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Carequality,national_clinical,Procedure,True,12,34.0,False,False,2026-06-01
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,Condition,True,10,28.0,False,False,2026-06-24
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,Encounter,True,12,237.0,False,False,2026-06-14
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,Observation,True,18,33.0,False,False,2026-06-02
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,DocumentReference,True,11,141.0,False,False,2026-06-07
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,MedicationStatement,True,18,57.0,False,False,2026-06-17
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,AllergyIntolerance,True,11,173.0,False,False,2026-06-08
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,Immunization,False,0,49.0,False,False,2026-06-18
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,CommonWell,national_clinical,Procedure,True,12,175.0,False,False,2026-06-28
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,QHIN-eHX,qhin,Condition,False,0,32.0,False,False,2026-06-29
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,QHIN-eHX,qhin,Encounter,True,13,163.0,False,False,2026-06-15
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,QHIN-eHX,qhin,DocumentReference,True,11,203.0,False,False,2026-06-13
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,QHIN-eHX,qhin,Observation,True,11,44.0,False,False,2026-06-03
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,QHIN-eHX,qhin,Procedure,True,12,123.0,False,False,2026-06-22
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Surescripts,pharmacy,MedicationStatement,False,0,8.0,False,False,2026-06-05
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Surescripts,pharmacy,MedicationDispense,True,6,27.0,False,False,2026-06-04
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Quest,lab,Observation,True,20,22.0,False,False,2026-06-14
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Quest,lab,DiagnosticReport,True,19,7.0,False,False,2026-06-22
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Labcorp,lab,Observation,True,9,46.0,False,False,2026-06-03
+upid_cbee3772,Firefly Health,virtual_primary,NH,40-64,Labcorp,lab,DiagnosticReport,True,15,30.0,False,False,2026-06-19
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,Condition,True,15,233.0,False,False,2026-06-28
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,Encounter,False,0,,True,False,2026-05-31
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,Observation,True,8,174.0,False,False,2026-06-03
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,DocumentReference,True,9,261.0,False,False,2026-06-15
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,MedicationStatement,False,0,,True,False,2026-06-07
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,AllergyIntolerance,True,22,59.0,False,False,2026-06-18
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,Immunization,True,14,54.0,False,False,2026-06-12
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Carequality,national_clinical,Procedure,True,11,41.0,False,False,2026-06-25
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,Condition,False,0,81.0,False,False,2026-06-02
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,Encounter,False,0,181.0,False,False,2026-06-10
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,Observation,True,15,83.0,False,False,2026-06-06
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,DocumentReference,False,0,242.0,False,False,2026-06-14
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,MedicationStatement,True,13,144.0,False,False,2026-06-09
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,AllergyIntolerance,True,17,177.0,False,False,2026-06-19
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,Immunization,True,13,120.0,False,False,2026-06-02
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,CommonWell,national_clinical,Procedure,True,15,34.0,False,False,2026-06-27
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,QHIN-eHX,qhin,Condition,True,10,118.0,False,False,2026-06-25
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,QHIN-eHX,qhin,Encounter,True,12,14.0,False,False,2026-06-11
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,QHIN-eHX,qhin,DocumentReference,True,11,202.0,False,False,2026-06-01
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,QHIN-eHX,qhin,Observation,True,9,175.0,False,False,2026-06-07
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,QHIN-eHX,qhin,Procedure,False,0,,True,False,2026-06-17
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Surescripts,pharmacy,MedicationStatement,False,0,18.0,False,False,2026-06-14
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Surescripts,pharmacy,MedicationDispense,False,0,10.0,False,False,2026-06-18
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Quest,lab,Observation,True,12,35.0,False,False,2026-06-10
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Quest,lab,DiagnosticReport,True,13,9.0,False,False,2026-06-02
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Labcorp,lab,Observation,True,12,21.0,False,False,2026-06-01
+upid_ca3766e4,DispatchHealth,in_home_acute,NV,18-39,Labcorp,lab,DiagnosticReport,True,27,20.0,False,False,2026-06-02
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,Condition,True,17,150.0,False,False,2026-06-27
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,Encounter,True,18,69.0,False,False,2026-06-22
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,Observation,False,0,53.0,False,False,2026-06-18
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,DocumentReference,True,20,56.0,False,False,2026-06-12
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,MedicationStatement,True,17,170.0,False,False,2026-06-11
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,AllergyIntolerance,False,0,133.0,False,False,2026-06-16
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,Immunization,True,13,20.0,False,False,2026-06-18
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Carequality,national_clinical,Procedure,True,8,110.0,False,False,2026-06-22
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,Condition,False,0,,True,False,2026-06-21
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,Encounter,True,16,45.0,False,False,2026-06-24
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,Observation,True,18,124.0,False,False,2026-06-09
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,DocumentReference,True,13,122.0,False,False,2026-06-08
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,MedicationStatement,True,16,181.0,False,False,2026-06-02
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,AllergyIntolerance,True,13,170.0,False,False,2026-06-24
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,Immunization,True,10,16.0,False,False,2026-06-18
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,CommonWell,national_clinical,Procedure,False,0,,True,False,2026-06-08
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,QHIN-eHX,qhin,Condition,True,14,199.0,False,False,2026-06-04
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,QHIN-eHX,qhin,Encounter,True,18,159.0,False,False,2026-06-02
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,QHIN-eHX,qhin,DocumentReference,False,0,135.0,False,False,2026-06-18
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,QHIN-eHX,qhin,Observation,True,11,149.0,False,False,2026-06-20
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,QHIN-eHX,qhin,Procedure,False,0,189.0,False,False,2026-06-19
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Surescripts,pharmacy,MedicationStatement,True,14,3.0,False,False,2026-06-16
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Surescripts,pharmacy,MedicationDispense,True,20,12.0,False,False,2026-06-12
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Quest,lab,Observation,True,23,40.0,False,False,2026-06-15
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Quest,lab,DiagnosticReport,True,14,20.0,False,False,2026-06-23
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Labcorp,lab,Observation,False,0,30.0,False,False,2026-06-22
+upid_6c15c0c8,DispatchHealth,in_home_acute,CO,40-64,Labcorp,lab,DiagnosticReport,True,13,16.0,False,False,2026-05-31
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,Condition,True,15,50.0,False,False,2026-06-05
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,Encounter,True,13,64.0,False,False,2026-06-03
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,Observation,False,0,34.0,False,False,2026-06-22
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,DocumentReference,True,20,168.0,False,False,2026-06-14
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,MedicationStatement,True,19,258.0,False,False,2026-06-03
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,AllergyIntolerance,False,0,98.0,False,False,2026-06-16
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,Immunization,False,0,80.0,False,False,2026-06-20
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,Carequality,national_clinical,Procedure,True,11,14.0,False,False,2026-06-27
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,CommonWell,national_clinical,Condition,False,0,145.0,False,False,2026-06-13
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,CommonWell,national_clinical,Encounter,True,16,49.0,False,False,2026-06-20
+upid_e32684b2,HarmonyCares,home_based_primary,OH,65+,CommonWell,national_clinical,Observation,True,17,103.0,False,False,2026-06-16

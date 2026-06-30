@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Full generated datasets (regenerate with: python engine/generate_data.py)
+data/coverage_facts.csv
+data/patients.csv
+data/adt_events.csv
