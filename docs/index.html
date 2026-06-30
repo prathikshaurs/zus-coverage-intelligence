@@ -205,14 +205,14 @@
 <div class="wrap">
 
   <div class="thesis">
-    <div class="thesis-quote">Pulling records is a commodity. The work is knowing <em>where coverage is thin, why,</em> and what to do about it &mdash; per network, per geography, per customer.</div>
+    <div class="thesis-quote">Pulling records is a commodity. The work is knowing <em>where coverage is thin, why,</em> and what to do about it - per network, per geography, per customer.</div>
     <div class="thesis-cite">Built to the shape of the Interoperability Operations Analyst role &middot; modeled on Zus's FHIR data-mart structure (UPID identity, DATA_SOURCE provenance, network-level coverage)</div>
   </div>
 
   <div class="kpis" id="kpis"></div>
 
   <section>
-    <div class="sec-head"><span class="sec-eyebrow">01 / COVERAGE</span><h2>Where the network is strong &mdash; and where it isn't</h2></div>
+    <div class="sec-head"><span class="sec-eyebrow">01 / COVERAGE</span><h2>Where the network is strong, and where it isn't</h2></div>
     <p class="sec-desc">Coverage rate is the share of expected (patient &times; network &times; data-type) records Zus successfully retrieved. Sorted worst-first, the way you'd triage it.</p>
     <div class="controls">
       <div class="seg" id="dim-seg">
@@ -228,19 +228,19 @@
 
   <section>
     <div class="sec-head"><span class="sec-eyebrow">02 / GEOGRAPHY &times; NETWORK</span><h2>Coverage heatmap</h2></div>
-    <p class="sec-desc">Each cell is the coverage rate for a state on a given network. The dark patches are where to look first &mdash; a single weak cell against a strong row usually means a connectivity or participation problem, not a sick patient population.</p>
+    <p class="sec-desc">Each cell is the coverage rate for a state on a given network. The dark patches are where to look first - a single weak cell against a strong row usually means a connectivity or participation problem, not a sick patient population.</p>
     <div class="matrix-scroll"><table class="heat" id="heat"></table></div>
   </section>
 
   <section>
     <div class="sec-head"><span class="sec-eyebrow">03 / INVESTIGATION</span><h2>Flagged anomalies &amp; root-cause hypotheses</h2></div>
-    <p class="sec-desc">The engine compares every cell to its network's own norm and flags statistically significant shortfalls (z &le; -2). Each card pairs the finding with a plain-language hypothesis and a recommended operational action &mdash; the hand-off from analysis to support, solutions, or product.</p>
+    <p class="sec-desc">The engine compares every cell to its network's own norm and flags statistically significant shortfalls (z &le; -2). Each card pairs the finding with a plain-language hypothesis and a recommended operational action - the hand-off from analysis to support, solutions, or product.</p>
     <div class="invest-grid" id="cases"></div>
   </section>
 
   <section>
     <div class="sec-head"><span class="sec-eyebrow">04 / DATA QUALITY</span><h2>Retrieved, but not usable</h2></div>
-    <p class="sec-desc">Coverage can look fine while quality quietly fails. These are network/data-type combinations that return records which arrive near-empty or far too slowly &mdash; caught by a separate, non-geographic scan.</p>
+    <p class="sec-desc">Coverage can look fine while quality quietly fails. These are network/data-type combinations that return records which arrive near-empty or far too slowly, caught by a separate, non-geographic scan.</p>
     <div class="invest-grid" id="quality"></div>
   </section>
 
